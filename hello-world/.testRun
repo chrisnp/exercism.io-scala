@@ -1,0 +1,11 @@
+[info] Loading project definition from ~\exercism\scala\hello-world\project
+[info] Loading settings for project hello-world from build.sbt ...
+[info] Set current project to hello-world (in build file:/~/exercism/scala/hello-world/)
+[info] HelloWorldTest:
+[info] - Say Hi!
+[info] Run completed in 1 second, 98 milliseconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 27 ╓ίέ 2019 12:35:28 ΏΉ
