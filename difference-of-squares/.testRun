@@ -1,0 +1,25 @@
+[info] Loading project definition from ~\exercism\scala\difference-of-squares\project
+[info] Set current project to difference-of-squares (in build file:/~/exercism/scala/difference-of-squares/)
+[success] Total time: 1 s, completed 4 ╠ά± 2019 9:37:01 ΉΉ
+
+
+
+[info] Loading project definition from ~\exercism\scala\difference-of-squares\project
+[info] Loading settings for project difference-of-squares from build.sbt ...
+[info] Set current project to difference-of-squares (in build file:/~/exercism/scala/difference-of-squares/)
+[info] DifferenceOfSquaresTest:
+[info] - square of sum 1
+[info] - square of sum 5
+[info] - square of sum 100
+[info] - sum of squares 1
+[info] - sum of squares 5
+[info] - sum of squares 100
+[info] - difference of squares 1
+[info] - difference of squares 5
+[info] - difference of squares 100
+[info] Run completed in 883 milliseconds.
+[info] Total number of tests run: 9
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 4 ╠ά± 2019 9:42:46 ΉΉ
