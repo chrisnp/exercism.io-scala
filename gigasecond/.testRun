@@ -1,0 +1,15 @@
+[info] Loading project definition from ~\exercism\scala\gigasecond\project
+[info] Loading settings for project gigasecond from build.sbt ...
+[info] Set current project to gigasecond (in build file:/~/exercism/scala/gigasecond/)
+[info] GigasecondTest:
+[info] - date only specification of time
+[info] - second test for date only specification of time
+[info] - third test for date only specification of time
+[info] - full time specified
+[info] - full time with day roll-over
+[info] Run completed in 1 second, 335 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 7 s, completed 14 ╠ά± 2019 1:13:56 ΉΉ
