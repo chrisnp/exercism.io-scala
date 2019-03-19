@@ -1,0 +1,16 @@
+[info] Loading project definition from ~\exercism\scala\collatz-conjecture\project
+[info] Loading settings for project collatz-conjecture from build.sbt ...
+[info] Set current project to collatz-conjecture (in build file:/~/exercism/scala/collatz-conjecture/)
+[info] CollatzConjectureTest:
+[info] - zero steps for one
+[info] - divide if even
+[info] - even and odd steps
+[info] - Large number of even and odd steps
+[info] - zero is an error
+[info] - negative value is an error
+[info] Run completed in 650 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 2 s, completed 19 ╠ά± 2019 8:51:30 ΉΉ
