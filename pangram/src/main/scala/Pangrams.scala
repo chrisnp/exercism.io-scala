@@ -1,8 +1,7 @@
 object Pangrams {
 
-  private val Alphabet = 'a' to 'z'
-
-  def isPangram(input: String): Boolean = Alphabet.forall(input.toLowerCase.contains(_))
+  def isPangram(input: String): Boolean = 
+          (('a' to 'z') intersect input.toLowerCase) == ('a' to 'z')
 
 }
 
