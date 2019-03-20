@@ -1,6 +1,6 @@
-[info] Loading project definition from C:\Users\Chris\exercism\scala\pangram\project
+[info] Loading project definition from ~\exercism\scala\pangram\project
 [info] Loading settings for project pangram from build.sbt ...
-[info] Set current project to pangram (in build file:/C:/Users/Chris/exercism/scala/pangram/)
+[info] Set current project to pangram (in build file:/~/exercism/scala/pangram/)
 [info] PangramTest:
 [info] - sentence empty
 [info] - recognizes a perfect lower case pangram
@@ -20,9 +20,9 @@
 [success] Total time: 5 s, completed 20 ╠ά± 2019 5:25:36 ΉΉ
 
 
-[info] Loading project definition from C:\Users\Chris\exercism\scala\pangram\project
+[info] Loading project definition from ~\exercism\scala\pangram\project
 [info] Loading settings for project pangram from build.sbt ...
-[info] Set current project to pangram (in build file:/C:/Users/Chris/exercism/scala/pangram/)
+[info] Set current project to pangram (in build file:/~/exercism/scala/pangram/)
 [info] PangramTest:
 [info] - sentence empty
 [info] - recognizes a perfect lower case pangram
