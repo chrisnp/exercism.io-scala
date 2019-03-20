@@ -1,0 +1,42 @@
+[info] Loading project definition from ~\exercism\scala\pangram\project
+[info] Loading settings for project pangram from build.sbt ...
+[info] Set current project to pangram (in build file:/~/exercism/scala/pangram/)
+[info] PangramTest:
+[info] - sentence empty
+[info] - recognizes a perfect lower case pangram
+[info] - pangram with only lower case
+[info] - missing character 'x'
+[info] - another missing character, e.g. 'h'
+[info] - pangram with underscores
+[info] - pangram with numbers
+[info] - missing letters replaced by numbers
+[info] - pangram with mixed case and punctuation
+[info] - upper and lower case versions of the same character should not be counted separately
+[info] Run completed in 1 second, 421 milliseconds.
+[info] Total number of tests run: 10
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 20 ╠ά± 2019 5:25:36 ΉΉ
+
+
+[info] Loading project definition from ~\exercism\scala\pangram\project
+[info] Loading settings for project pangram from build.sbt ...
+[info] Set current project to pangram (in build file:/~/exercism/scala/pangram/)
+[info] PangramTest:
+[info] - sentence empty
+[info] - recognizes a perfect lower case pangram
+[info] - pangram with only lower case
+[info] - missing character 'x'
+[info] - another missing character, e.g. 'h'
+[info] - pangram with underscores
+[info] - pangram with numbers
+[info] - missing letters replaced by numbers
+[info] - pangram with mixed case and punctuation
+[info] - upper and lower case versions of the same character should not be counted separately
+[info] Run completed in 1 second, 191 milliseconds.
+[info] Total number of tests run: 10
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 20 ╠ά± 2019 5:40:05 ΉΉ
