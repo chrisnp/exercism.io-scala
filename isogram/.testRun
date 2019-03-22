@@ -1,0 +1,20 @@
+[info] Loading project definition from ~\exercism\scala\isogram\project
+[info] Loading settings for project isogram from build.sbt ...
+[info] Set current project to isogram (in build file:/~/exercism/scala/isogram/)
+[info] IsogramTest:
+[info] - empty string
+[info] - isogram with only lower case characters
+[info] - word with one duplicated character
+[info] - word with one duplicated character from the end of the alphabet
+[info] - longest reported english isogram
+[info] - word with duplicated character in mixed case
+[info] - hypothetical isogrammic word with hyphen
+[info] - isogram with duplicated hyphen
+[info] - made-up name that is an isogram
+[info] - duplicated character in the middle
+[info] Run completed in 1 second, 551 milliseconds.
+[info] Total number of tests run: 10
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 22 ╠ά± 2019 4:39:29 ΉΉ
