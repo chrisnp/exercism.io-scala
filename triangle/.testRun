@@ -1,0 +1,29 @@
+[info] Loading project definition from ~\exercism\scala\triangle\project
+[info] Loading settings for project triangle from build.sbt ...
+[info] Set current project to triangle (in build file:/~/exercism/scala/triangle/)
+[info] Compiling 1 Scala source to ~\exercism\scala\triangle\target\scala-2.12\classes ...
+[info] Done compiling.
+[info] TriangleTest:
+[info] - equilateral - true if all sides are equal
+[info] - equilateral - false if any side is unequal
+[info] - equilateral - false if no sides are equal
+[info] - equilateral - All zero sides are illegal, so the triangle is not equilateral
+[info] - equilateral - sides may be floats
+[info] - isosceles - true if last two sides are equal
+[info] - isosceles - true if first two sides are equal
+[info] - isosceles - true if first and last sides are equal
+[info] - isosceles - equilateral triangles are also isosceles
+[info] - isosceles - false if no sides are equal
+[info] - isosceles - Sides that violate triangle inequality are not isosceles, even if two are equal
+[info] - isosceles - sides may be floats
+[info] - scalene - true if no sides are equal
+[info] - scalene - false if all sides are equal
+[info] - scalene - false if two sides are equal
+[info] - scalene - Sides that violate triangle inequality are not scalene, even if they are all different
+[info] - scalene - sides may be floats
+[info] Run completed in 3 seconds, 363 milliseconds.
+[info] Total number of tests run: 17
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 17, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 68 s, completed 25 ╠ά± 2019 2:44:26 ΏΉ
