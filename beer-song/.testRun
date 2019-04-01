@@ -1,0 +1,18 @@
+[info] Loading project definition from ~\exercism\scala\beer-song\project
+[info] Loading settings for project beer-song from build.sbt ...
+[info] Set current project to beer-song (in build file:/~/exercism/scala/beer-song/)
+[info] BeerSongTest:
+[info] - first generic verse
+[info] - last generic verse
+[info] - verse with 2 bottles
+[info] - verse with 1 bottle
+[info] - verse with 0 bottles
+[info] - first two verses
+[info] - last three verses
+[info] - all verses
+[info] Run completed in 2 seconds, 170 milliseconds.
+[info] Total number of tests run: 8
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 8 s, completed 1 ┴Ώ± 2019 7:55:23 ΉΉ
