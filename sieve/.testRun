@@ -13,3 +13,39 @@
 [info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 27 ╠ά± 2019 11:32:15 ΉΉ
+
+
+[info] Loading project definition from ~\exercism\scala\sieve\project
+[info] Loading settings for project sieve from build.sbt ...
+[info] Set current project to sieve (in build file:/~/exercism/scala/sieve/)
+[info] SieveTest:
+[info] - no primes under two
+[info] - find first prime
+[info] - find primes up to 10
+[info] - limit is prime
+[info] - find primes up to 1000
+[info] Run completed in 1 second, 465 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 11 ┴Ώ± 2019 2:30:33 ΉΉ
+
+
+[info] Loading project definition from ~\exercism\scala\sieve\project
+[info] Loading settings for project sieve from build.sbt ...
+[info] Set current project to sieve (in build file:/~/exercism/scala/sieve/)
+[info] SieveTest:
+[info] - no primes under two
+[info] - find first prime
+[info] - find primes up to 10
+[info] - limit is prime
+[info] - find primes up to 1000
+[info] Run completed in 1 second, 543 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 8 s, completed 11 ┴Ώ± 2019 3:12:33 ΉΉ
+
+
