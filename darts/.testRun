@@ -1,0 +1,17 @@
+[info] Loading project definition from ~\exercism\scala\darts\project
+[info] Loading settings for project darts from build.sbt ...
+[info] Set current project to darts (in build file:/~/exercism/scala/darts/)
+[info] DartsTest:
+[info] - A dart lands outside the target
+[info] - A dart lands just in the border of the target
+[info] - A dart lands in the middle circle
+[info] - A dart lands right in the border between outside and middle circles
+[info] - A dart lands in the inner circle
+[info] Run completed in 1 second, 383 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 12 ┴Ώ± 2019 12:47:38 ΏΉ
+
+
