@@ -1,0 +1,48 @@
+[info] Loading project definition from ~\exercism\scala\anagram\project
+[info] Loading settings for project anagram from build.sbt ...
+[info] Set current project to anagram (in build file:/~/exercism/scala/anagram/)
+[info] Compiling 1 Scala source to ~\exercism\scala\anagram\target\scala-2.12\classes ...
+[info] Done compiling.
+[info] AnagramTest:
+[info] - no matches
+[info] - detects two anagrams
+[info] - does not detect anagram subsets
+[info] - detects anagram
+[info] - detects three anagrams
+[info] - does not detect non-anagrams with identical checksum
+[info] - detects anagrams case-insensitively
+[info] - detects anagrams using case-insensitive subject
+[info] - detects anagrams using case-insensitive possible matches
+[info] - does not detect a anagram if the original word is repeated
+[info] - anagrams must use all letters exactly once
+[info] - words are not anagrams of themselves (case-insensitive)
+[info] Run completed in 1 second, 45 milliseconds.
+[info] Total number of tests run: 12
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 12 s, completed 8 ╠ά· 2019 8:01:13 ΉΉ
+
+
+[info] Loading project definition from ~\exercism\scala\anagram\project
+[info] Loading settings for project anagram from build.sbt ...
+[info] Set current project to anagram (in build file:/~/exercism/scala/anagram/)
+[info] AnagramTest:
+[info] - no matches
+[info] - detects two anagrams
+[info] - does not detect anagram subsets
+[info] - detects anagram
+[info] - detects three anagrams
+[info] - does not detect non-anagrams with identical checksum
+[info] - detects anagrams case-insensitively
+[info] - detects anagrams using case-insensitive subject
+[info] - detects anagrams using case-insensitive possible matches
+[info] - does not detect a anagram if the original word is repeated
+[info] - anagrams must use all letters exactly once
+[info] - words are not anagrams of themselves (case-insensitive)
+[info] Run completed in 1 second, 292 milliseconds.
+[info] Total number of tests run: 12
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 8 ╠ά· 2019 8:34:31 ΉΉ
