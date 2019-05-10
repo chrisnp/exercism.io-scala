@@ -1,0 +1,40 @@
+[info] Loading project definition from ~\exercism\scala\prime-factors\project
+[info] Loading settings for project prime-factors from build.sbt ...
+[info] Set current project to prime-factors (in build file:/~/exercism/scala/prime-factors/)
+[info] PrimeFactorsTest:
+[info] - no factors
+[info] - prime number
+[info] - square of a prime
+[info] - cube of a prime
+[info] - product of primes and non-primes
+[info] - product of primes
+[info] - factors include a large prime
+[info] Run completed in 956 milliseconds.
+[info] Total number of tests run: 7
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 10 ╠ά· 2019 1:09:08 ΏΉ
+
+
+[info] Loading project definition from C:\Users\Chris\exercism\scala\prime-factors\project
+[info] Loading settings for project prime-factors from build.sbt ...
+[info] Set current project to prime-factors (in build file:/C:/Users/Chris/exercism/scala/prime-factors/)
+[info] Compiling 1 Scala source to C:\Users\Chris\exercism\scala\prime-factors\target\scala-2.12\classes ...
+[info] Done compiling.
+[info] PrimeFactorsTest:
+[info] - no factors
+[info] - prime number
+[info] - square of a prime
+[info] - cube of a prime
+[info] - product of primes and non-primes
+[info] - product of primes
+[info] - factors include a large prime
+[info] Run completed in 684 milliseconds.
+[info] Total number of tests run: 7
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 12 s, completed 10 ╠ά· 2019 1:49:29 ΏΉ
+
+
