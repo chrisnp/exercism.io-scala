@@ -36,10 +36,10 @@
 
 
 
-[info] Loading project definition from C:\Users\Chris\exercism\scala\bob\project
+[info] Loading project definition from ~\exercism\scala\bob\project
 [info] Loading settings for project bob from build.sbt ...
-[info] Set current project to bob (in build file:/C:/Users/Chris/exercism/scala/bob/)
-[info] Compiling 1 Scala source to C:\Users\Chris\exercism\scala\bob\target\scala-2.12\classes ...
+[info] Set current project to bob (in build file:/~/exercism/scala/bob/)
+[info] Compiling 1 Scala source to ~\exercism\scala\bob\target\scala-2.12\classes ...
 [info] Done compiling.
 [info] BobTest:
 [info] - stating something
