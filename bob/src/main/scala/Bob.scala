@@ -5,10 +5,10 @@ object Bob {
             !str.exists(_.isLower)) 1 else 0
 
     private def question(str: String): Int = 
-        if(str.trim.endsWith("?")) 1 else 0
+        if (str.trim.endsWith("?")) 1 else 0
 
     private def silent(str: String): Int = 
-        if(str.trim.isEmpty) 1 else 0
+        if (str.trim.isEmpty) 1 else 0
 
     def response(statement: String): String = 
       (shout(statement), question(statement), silent(statement)) match {

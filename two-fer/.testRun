@@ -11,3 +11,18 @@
 [info] Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 15 s, completed 21 ╔ΎΫΊ 2019 7:22:00 ΉΉ
+
+
+[info] Loading project definition from ~\exercism\scala\two-fer\project
+[info] Loading settings for project two-fer from build.sbt ...
+[info] Set current project to two-fer (in build file:/~/exercism/scala/two-fer/)
+[info] TwoferTest:
+[info] - no name given
+[info] - a name given
+[info] - another name given
+[info] Run completed in 1 second, 212 milliseconds.
+[info] Total number of tests run: 3
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 6 s, completed 22 ╔ΎΫΊ 2019 12:42:59 ΏΉ
