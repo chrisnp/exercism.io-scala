@@ -1,0 +1,18 @@
+[info] Loading project definition from ~\exercism\scala\accumulate\project
+[info] Loading settings for project accumulate from build.sbt ...
+[info] Set current project to accumulate (in build file:/~/exercism/scala/accumulate/)
+[info] AccumulateTest:
+[info] - should allow empty accumulation
+[info] - should accumulate squares
+[info] - should accumulate upcases
+[info] - should accumulate reversed strings
+[info] - should allow different return type
+[info] Run completed in 843 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 23 ╔ΎΫΈ 2019 3:49:02 ΏΉ
+
+
+
