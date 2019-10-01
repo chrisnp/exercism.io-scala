@@ -1,0 +1,17 @@
+[info] Loading project definition from ~\exercism\scala\nucleotide-count\project
+[info] Loading settings for project nucleotide-count from build.sbt ...
+[info] Set current project to nucleotide-count (in build file:/~/exercism/scala/nucleotide-count/)
+[info] Compiling 1 Scala source to ~\exercism\scala\nucleotide-count\target\scala-2.12\classes ...
+[info] Done compiling.
+[info] NucleotideCountTest:
+[info] - empty strand
+[info] - can count one nucleotide in single-character input
+[info] - strand with repeated nucleotide
+[info] - strand with multiple nucleotides
+[info] - strand with invalid nucleotides
+[info] Run completed in 1 second, 962 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 34 s, completed 1 ╧ΆΪ 2019 5:43:57 ΉΉ
