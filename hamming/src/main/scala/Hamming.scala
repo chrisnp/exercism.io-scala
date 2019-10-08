@@ -5,7 +5,7 @@ object Hamming {
         if (strand1.length() != strand2.length()) return None 
  
         Some((strand1, strand2)
-             .zipped.map(_!=_)
-             .count(_ == true))
+             .zipped.map(_==_)
+             .count(_ == false))
     }
 }
