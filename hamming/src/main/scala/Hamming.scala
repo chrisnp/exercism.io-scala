@@ -1,13 +1,9 @@
 object Hamming {
 
-    def distance(strand0 : String, strand1 : String) : Option[Int] = {
+    def distance(strand1 : String, strand2 : String) : Option[Int] = {
 
-        if (strand0.length() != strand1.length()) return None 
+        if (strand1.length() != strand2.length()) return None 
  
-        Some((strand0, strand1)
-             .zipped
-             .map(_!=_)
-             .foldLeft(0)((distance, notSame) => 
-                                distance + (if (notSame) 1 else 0)))
+        Some((strand1, strand2).zipped.map(_!=_).count(_ == true))
     }
 }
