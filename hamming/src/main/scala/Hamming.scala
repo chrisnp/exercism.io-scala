@@ -7,6 +7,7 @@ object Hamming {
         Some((strand0, strand1)
              .zipped
              .map(_!=_)
-             .foldLeft(0)((count, x) => count + (if (x) 1 else 0)))
+             .foldLeft(0)((distance, notSame) => 
+                                distance + (if (notSame) 1 else 0)))
     }
 }
