@@ -75,9 +75,9 @@
 [success] Total time: 34 s, completed 21 ╔ΎΫΊ 2019 6:58:06 ΉΉ
 
 
-[info] Loading project definition from C:\Users\Chris\exercism\scala\bob\project
+[info] Loading project definition from ~\exercism\scala\bob\project
 [info] Loading settings for project bob from build.sbt ...
-[info] Set current project to bob (in build file:/C:/Users/Chris/exercism/scala/bob/)
+[info] Set current project to bob (in build file:/~/exercism/scala/bob/)
 [info] BobTest:
 [info] - stating something
 [info] - shouting
@@ -112,9 +112,9 @@
 [success] Total time: 4 s, completed 24 ╔ΎΫΊ 2019 11:01:11 ΉΉ
 
 
-[info] Loading project definition from C:\Users\Chris\exercism\scala\bob\project
+[info] Loading project definition from ~\exercism\scala\bob\project
 [info] Loading settings for project bob from build.sbt ...
-[info] Set current project to bob (in build file:/C:/Users/Chris/exercism/scala/bob/)
+[info] Set current project to bob (in build file:/~/exercism/scala/bob/)
 [info] BobTest:
 [info] - stating something
 [info] - shouting
