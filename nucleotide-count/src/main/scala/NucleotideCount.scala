@@ -6,6 +6,6 @@ case class DNA(sequence : String) {
             Right( Map('A' -> 0,'C' -> 0,'G' -> 0,'T' -> 0) 
                    ++ sequence.groupBy(identity).mapValues(_.size) )
         else
-            Left( "Invalid nucleotides in sequence" )
+            Left( "Invalid nucleotide(s) in sequence" )
     }
 }
