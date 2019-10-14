@@ -1,0 +1,19 @@
+[info] Loading project definition from C:\Users\Chris\exercism\scala\nth-prime\project
+[info] Loading settings for project nth-prime from build.sbt ...
+[info] Set current project to nth-prime (in build file:/C:/Users/Chris/exercism/scala/nth-prime/)
+[info] NthPrimeTest:
+[info] - first prime *** FAILED ***
+[info]   None was not equal to Some(2) (NthPrimeTest.scala:7)
+[info] - second prime
+[info] - sixth prime
+[info] - big prime
+[info] - there is no zeroth prime
+[info] Run completed in 1 second, 100 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 4, failed 1, canceled 0, ignored 0, pending 0
+[info] *** 1 TEST FAILED ***
+[error] Failed tests:
+[error] 	NthPrimeTest
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 4 s, completed 14 ╧ΆΪ 2019 11:57:56 ΉΉ
