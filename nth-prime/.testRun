@@ -34,3 +34,20 @@
 [info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 14 s, completed 15 ╧ΆΪ 2019 12:05:36 ΏΉ
+
+
+[info] Loading project definition from ~\exercism\scala\nth-prime\project
+[info] Loading settings for project nth-prime from build.sbt ...
+[info] Set current project to nth-prime (in build file:/~/exercism/scala/nth-prime/)
+[info] NthPrimeTest:
+[info] - first prime
+[info] - second prime
+[info] - sixth prime
+[info] - big prime
+[info] - there is no zeroth prime
+[info] Run completed in 1 second, 162 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 15 ╧ΆΪ 2019 4:57:15 ΉΉ
