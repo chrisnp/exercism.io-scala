@@ -35,3 +35,30 @@
 [info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 25 s, completed 8 ╔άΊ 2020 11:57:06 ΉΉ
+
+
+
+
+[info] Loading project definition from C:\Users\Chris\exercism\scala\strain\project
+[info] Loading settings for project strain from build.sbt ...
+[info] Set current project to strain (in build file:/C:/Users/Chris/exercism/scala/strain/)
+[info] Compiling 1 Scala source to C:\Users\Chris\exercism\scala\strain\target\scala-2.12\classes ...
+[info] Done compiling.
+[info] StrainTest:
+[info] - should handle empty keep
+[info] - should keep everything
+[info] - should keep first and last
+[info] - should keep neither first or last
+[info] - should keep strings
+[info] - should keep sequences
+[info] - should handle empty discard
+[info] - should discard first and last
+[info] - should discard neither first or last
+[info] - should discard strings
+[info] - should discard sequences
+[info] Run completed in 2 seconds, 686 milliseconds.
+[info] Total number of tests run: 11
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 20 s, completed 8 ╔άΊ 2020 11:58:55 ΉΉ
