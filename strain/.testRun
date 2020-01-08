@@ -1,3 +1,5 @@
+sbt:strain> test
+
 [info] Updated file ~\exercism\scala\strain\project\build.properties: set sbt.version to 1.2.8
 [info] Loading project definition from ~\exercism\scala\strain\project
 [info] Updating ProjectRef(uri("file:/C:/Users/Chris/exercism/scala/strain/project/"), "strain-build")...
@@ -38,11 +40,12 @@
 
 
 
+sbt:strain> test
 
-[info] Loading project definition from C:\Users\Chris\exercism\scala\strain\project
+[info] Loading project definition from ~\exercism\scala\strain\project
 [info] Loading settings for project strain from build.sbt ...
 [info] Set current project to strain (in build file:/C:/Users/Chris/exercism/scala/strain/)
-[info] Compiling 1 Scala source to C:\Users\Chris\exercism\scala\strain\target\scala-2.12\classes ...
+[info] Compiling 1 Scala source to ~\exercism\scala\strain\target\scala-2.12\classes ...
 [info] Done compiling.
 [info] StrainTest:
 [info] - should handle empty keep
