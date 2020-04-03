@@ -37,3 +37,26 @@
 [info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 7
 [info] All tests passed.
 [success] Total time: 3 s, completed 25 ╔ΎΫΊ 2019 3:56:44 ΉΉ
+
+
+
+>sbt test
+
+[info] Loading project definition from ~\exercism\scala\space-age\project
+[info] Loading settings for project space-age from build.sbt ...
+[info] Set current project to space-age (in build file:/C:/Users/Chris/exercism/scala/space-age/)
+[info] SpaceAgeTest:
+[info] - age on Earth
+[info] - age on Mercury
+[info] - age on Venus
+[info] - age on Mars
+[info] - age on Jupiter
+[info] - age on Saturn
+[info] - age on Uranus
+[info] - age on Neptune
+[info] Run completed in 1 second, 784 milliseconds.
+[info] Total number of tests run: 8
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 3 ┴Ώ± 2020 4:37:56 ΉΉ
