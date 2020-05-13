@@ -49,6 +49,7 @@
 [success] Total time: 8 s, completed 11 ┴Ώ± 2019 3:12:33 ΉΉ
 
 
+
 >sbt test
 
 [info] Loading project definition from ~\exercism\scala\sieve\project
