@@ -1,7 +1,8 @@
 object Pangrams {
 
-  def isPangram(input: String): Boolean = 
-          (('a' to 'z') intersect input.toLowerCase) == ('a' to 'z')
+  def isPangram(input: String): Boolean =
 
+    ('a' to 'z')
+    .intersect (input.toLowerCase) == ('a' to 'z')
 }
 
