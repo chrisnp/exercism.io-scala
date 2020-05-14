@@ -13,8 +13,7 @@ object Bob {
     def response(query: String): String = 
       (shout(query), question(query), silent(query)) 
       match {
-        case (1, 1, 0) => 
-            "Calm down, I know what I'm doing!"
+        case (1, 1, 0) => "Calm down, I know what I'm doing!"
         case (1, 0, 0) => "Whoa, chill out!"
         case (0, 1, 0) => "Sure."
         case (0, 0, 1) => "Fine. Be that way!"

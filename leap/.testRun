@@ -12,3 +12,22 @@
 [info] Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 6 ╠ά± 2019 9:12:08 ΉΉ
+
+
+
+>sbt test
+
+[info] Loading project definition from ~\exercism\scala\leap\project
+[info] Loading settings for project leap from build.sbt ...
+[info] Set current project to leap (in build file:/~/exercism/scala/leap/)
+[info] LeapTest:
+[info] - year not divisible by 4: common year
+[info] - year divisible by 4, not divisible by 100: leap year
+[info] - year divisible by 100, not divisible by 400: common year
+[info] - year divisible by 400: leap year
+[info] Run completed in 1 second, 11 milliseconds.
+[info] Total number of tests run: 4
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 14 ╠ά· 2020 10:48:41 ΉΉ
