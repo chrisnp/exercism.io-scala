@@ -44,7 +44,7 @@
 
 [info] Loading project definition from ~\exercism\scala\space-age\project
 [info] Loading settings for project space-age from build.sbt ...
-[info] Set current project to space-age (in build file:/C:/Users/Chris/exercism/scala/space-age/)
+[info] Set current project to space-age (in build file:/~/exercism/scala/space-age/)
 [info] SpaceAgeTest:
 [info] - age on Earth
 [info] - age on Mercury
