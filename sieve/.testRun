@@ -54,7 +54,7 @@
 
 [info] Loading project definition from ~\exercism\scala\sieve\project
 [info] Loading settings for project sieve from build.sbt ...
-[info] Set current project to sieve (in build file:/C:/Users/Chris/exercism/scala/sieve/)
+[info] Set current project to sieve (in build file:/~/exercism/scala/sieve/)
 [info] SieveTest:
 [info] - no primes under two
 [info] - find first prime
