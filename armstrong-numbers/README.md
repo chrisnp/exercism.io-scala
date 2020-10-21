@@ -22,7 +22,6 @@ page](http://exercism.io/languages/scala).
 
 
 ## Source
-
 Wikipedia [https://en.wikipedia.org/wiki/Narcissistic_number](https://en.wikipedia.org/wiki/Narcissistic_number)
 
 ## Submitting Incomplete Solutions
