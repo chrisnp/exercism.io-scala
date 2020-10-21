@@ -3,6 +3,7 @@ import org.scalatest.{Matchers, FunSuite}
 /** @version 1.0.0 */
 class ArmstrongNumbersTest extends FunSuite with Matchers {
 
+
   test("Single digit numbers are Armstrong numbers") {
     ArmstrongNumbers.isArmstrongNumber(5) should be (true)
   }
