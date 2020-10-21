@@ -1,9 +1,9 @@
 {
-    "track":"scala",
-    "exercise":"armstrong-numbers",
-    "id":"4058d78cf391430997923e198598da6b",
-    "url":"https://exercism.io/tracks/scala/exercises/armstrong-numbers/solutions/4058d78cf391430997923e198598da6b",
-    "handle":"invigo",
-    "is_requester":true,
-    "auto_approve":false
+    "track": "scala",
+    "exercise": "armstrong-numbers",
+    "id": "4058d78cf391430997923e198598da6b",
+    "url": "https://exercism.io/tracks/scala/exercises/armstrong-numbers/solutions/4058d78cf391430997923e198598da6b",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
 }
