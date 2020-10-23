@@ -5,3 +5,5 @@
 project/*
 target/*
 cleanup.ps1
+
+.fake
