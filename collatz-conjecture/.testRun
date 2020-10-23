@@ -34,3 +34,30 @@
 [info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 8 s, completed 19 ╠ά± 2019 9:02:14 ΉΉ
+
+
+
+>sbt test
+
+[info] Updated file ~\exercism\scala\collatz-conjecture\project\build.properties: set sbt.version to 1.4.1
+[info] welcome to sbt 1.4.1 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from ~\exercism\scala\collatz-conjecture\project
+[info] loading settings for project collatz-conjecture from build.sbt ...
+[info] set current project to collatz-conjecture (in build file:/~/exercism/scala/collatz-conjecture/)
+[info] compiling 1 Scala source to ~\exercism\scala\collatz-conjecture\target\scala-2.11\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to ~\exercism\scala\collatz-conjecture\target\scala-2.11\test-classes ...
+[info] done compiling
+[info] CollatzConjectureTest:
+[info] - zero steps for one
+[info] - divide if even
+[info] - even and odd steps
+[info] - Large number of even and odd steps
+[info] - zero is an error
+[info] - negative value is an error
+[info] Run completed in 913 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 19 s, completed 23 ╬θ╬║╧Ε 2020, 5:42:55 ╬╝.╬╝.
