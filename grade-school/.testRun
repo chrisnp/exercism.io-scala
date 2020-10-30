@@ -15,3 +15,26 @@
 [info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 11 ╔ΎΫΈ 2019 11:29:35 ΏΉ
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.4.1 (Oracle Corporation Java 1.8.0_261)
+[info] loading project definition from ~\exercism\scala\grade-school\project
+[info] loading settings for project grade-school from build.sbt ...
+[info] set current project to grade-school (in build file:/~/exercism/scala/grade-school/)
+[info] GradeSchoolTest:
+[info] - empty school
+[info] - add student
+[info] - add more students in same class
+[info] - add students to different grades
+[info] - get students in a grade
+[info] - get students in a non-existent grade
+[info] - sort school
+[info] Run completed in 2 seconds, 756 milliseconds.
+[info] Total number of tests run: 7
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 9 s, completed 30 ╬θ╬║╧Ε 2020 1:50:32 ╬╝╬╝
