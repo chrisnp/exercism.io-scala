@@ -60,3 +60,69 @@
 [success] Total time: 4 s, completed 27 ╔ΎΫΊ 2019 6:21:05 ΉΉ
 
 
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.4.1 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from ~\exercism\scala\clock\project
+[info] loading settings for project clock from build.sbt ...
+[info] set current project to clock (in build file:/~/exercism/scala/clock/)
+[info] ClockTest:
+[info] - on the hour
+[info] - past the hour
+[info] - midnight is zero hours
+[info] - hour rolls over
+[info] - hour rolls over continuously
+[info] - sixty minutes is next hour
+[info] - minutes roll over
+[info] - minutes roll over continuously
+[info] - hour and minutes roll over
+[info] - hour and minutes roll over continuously
+[info] - hour and minutes roll over to exactly midnight
+[info] - negative hour
+[info] - negative hour rolls over
+[info] - negative hour rolls over continuously
+[info] - negative minutes
+[info] - negative minutes roll over
+[info] - negative minutes roll over continuously
+[info] - negative hour and minutes both roll over
+[info] - negative hour and minutes both roll over continuously
+[info] - add minutes
+[info] - add no minutes
+[info] - add to next hour
+[info] - add more than one hour
+[info] - add more than two hours with carry
+[info] - add across midnight
+[info] - add more than one day (1500 min = 25 hrs)
+[info] - add more than two days
+[info] - subtract minutes
+[info] - subtract to previous hour
+[info] - subtract more than an hour
+[info] - subtract across midnight
+[info] - subtract more than two hours
+[info] - subtract more than two hours with borrow
+[info] - subtract more than one day (1500 min = 25 hrs)
+[info] - subtract more than two days
+[info] - clocks with same time
+[info] - clocks a minute apart
+[info] - clocks an hour apart
+[info] - clocks with hour overflow
+[info] - clocks with hour overflow by several days
+[info] - clocks with negative hour
+[info] - clocks with negative hour that wraps
+[info] - clocks with negative hour that wraps multiple times
+[info] - clocks with minute overflow
+[info] - clocks with minute overflow by several days
+[info] - clocks with negative minute
+[info] - clocks with negative minute that wraps
+[info] - clocks with negative minute that wraps multiple times
+[info] - clocks with negative hours and minutes
+[info] - clocks with negative hours and minutes that wrap
+[info] Run completed in 1 second, 456 milliseconds.
+[info] Total number of tests run: 50
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 50, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 16 ╬Φ╬╡╬║ 2020, 10:25:54 ╬╝.╬╝.

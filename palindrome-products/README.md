@@ -13,7 +13,6 @@ factors of each within the range. If the largest or smallest palindrome has more
 than one pair of factors within the range, then return all the pairs.
 
 ## Example 1
-
 Given the range `[1, 9]` (both inclusive)...
 
 And given the list of all possible products within this range:
@@ -26,7 +25,6 @@ The smallest palindrome product is `1`. Its factors are `(1, 1)`.
 The largest palindrome product is `9`. Its factors are `(1, 9)` and `(3, 3)`.
 
 ## Example 2
-
 Given the range `[10, 99]` (both inclusive)...
 
 The smallest palindrome product is `121`. Its factors are `(11, 11)`.
@@ -43,7 +41,6 @@ page](http://exercism.io/languages/scala).
 
 
 ## Source
-
 Problem 4 at Project Euler [http://projecteuler.net/problem=4](http://projecteuler.net/problem=4)
 
 ## Submitting Incomplete Solutions

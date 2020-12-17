@@ -21,9 +21,17 @@ case class PalindromeProducts (min: Int, max: Int) {
         } yield (x, factorPairs(x).toSet)
 
     lazy val smallest: Option[(Int, Set[(Int,Int)])] = 
-        Try(palindromes(Stream.range(Math.pow(min, 2).toInt, 
-                        Math.pow(max, 2).toInt)).head).toOption
+        Try(palindromes(
+                Stream.range(
+                            Math.pow(min, 2).toInt, 
+                            Math.pow(max, 2).toInt))
+                      .head)
+            .toOption
     lazy val largest: Option[(Int, Set[(Int,Int)])] = 
-        Try(palindromes(Stream.range(Math.pow(max, 2).toInt, 
-                        Math.pow(min, 2).toInt, -1)).head).toOption
+        Try(palindromes(
+                Stream.range(
+                            Math.pow(max, 2).toInt, 
+                            Math.pow(min, 2).toInt, -1))
+                      .head)
+            .toOption
 }
