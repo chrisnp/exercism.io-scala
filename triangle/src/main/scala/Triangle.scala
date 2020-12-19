@@ -1,4 +1,7 @@
-case class Triangle(sideA: Double, sideB: Double, sideC: Double) {
+case class Triangle(sideA: Double, 
+                    sideB: Double, 
+                    sideC: Double) {
+    
     def triangleInequality: Boolean = 
         Set(sideA, sideB, sideC).min > 0 &&
         (sideA <= sideB + sideC) &&
