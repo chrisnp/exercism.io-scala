@@ -6,7 +6,7 @@
         "scala"
     ],
     "argv": [
-        "C:\\Java\\jdk-14.0.1/bin/java",
+        "C:\\Java\\jre-8u261/bin/java",
         "-Xms100m",
         "-Xmx100m",
         "-classpath",
