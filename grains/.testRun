@@ -1,0 +1,24 @@
+>sbt test
+
+[info] welcome to sbt 1.4.1 (Oracle Corporation Java 1.8.0_261)
+[info] loading project definition from ~\exercism\scala\grains\project
+[info] loading settings for project grains from build.sbt ...
+[info] set current project to grains (in build file:/~/exercism/scala/grains/)
+[info] GrainsTest:
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] - 16
+[info] - 32
+[info] - 64
+[info] - square 0 raises an exception
+[info] - negative square raises an exception
+[info] - square greater than 64 raises an exception
+[info] - returns the total number of grains on the board
+[info] Run completed in 4 seconds, 354 milliseconds.
+[info] Total number of tests run: 11
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 30 s, completed 3 ╬ο╬╡╬▓ 2021 1:50:10 ╧Α╬╝
