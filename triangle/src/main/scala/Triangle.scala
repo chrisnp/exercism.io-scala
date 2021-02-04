@@ -1,15 +1,10 @@
-case class Triangle(sideA: Double, 
-                    sideB: Double, 
-                    sideC: Double) {
+case class Triangle(a: Double, b: Double, c: Double) {
     
     def triangleInequality: Boolean = 
-        Set(sideA, sideB, sideC).min > 0 &&
-        (sideA <= sideB + sideC) &&
-        (sideB <= sideC + sideC) &&
-        (sideC <= sideA + sideB) 
+        Set(a, b, c).min > 0 && 
+        (a <= b + c) && (b <= c + a) && (c <= a + b) 
 
-    def equalSides: Int = 
-        4 - Set(sideA, sideB, sideC).size
+    def equalSides: Int = 4 - Set(a, b, c).size
 
     def equilateral: Boolean =
         triangleInequality && (equalSides == 3)
