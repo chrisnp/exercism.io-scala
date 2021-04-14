@@ -1,0 +1,18 @@
+>sbt test
+
+[info] welcome to sbt 1.4.1 (Oracle Corporation Java 1.8.0_261)
+[info] loading project definition from ~\exercism\scala\rna-transcription\project
+[info] loading settings for project rna-transcription from build.sbt ...
+[info] set current project to rna-transcription (in build file:/~/exercism/scala/rna-transcription/)
+[info] RnaTranscriptionTest:
+[info] - RNA complement of cytosine is guanine
+[info] - RNA complement of guanine is cytosine
+[info] - RNA complement of thymine is adenine
+[info] - RNA complement of adenine is uracil
+[info] - RNA complement
+[info] Run completed in 12 seconds, 320 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 24 s, completed 14 ╬Σ╧Α╧Β 2021 5:21:20 ╬╝╬╝

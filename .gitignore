@@ -2,6 +2,7 @@
 .ionide/
 /*/project/
 /*/target/
+/*/.bsp/
 project/*
 target/*
 cleanup.ps1
