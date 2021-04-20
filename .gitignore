@@ -1,13 +1,13 @@
 /.vscode/
 .ionide/
-# /*/project/
-# /*/target/
-# /*/.bsp/*
+/*/project/
+/*/target/
+/*/.bsp/
 # .bsp/*
 .bsp/
 sbt.json
-project/*
-target/*
+/project/*
+/target/*
 cleanup.ps1
 
 .fake
