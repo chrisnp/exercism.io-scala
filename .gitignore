@@ -2,6 +2,7 @@
 .ionide/
 /*/project/
 /*/target/
+/*/null/
 /*/.bsp/
 # .bsp/*
 .bsp/
