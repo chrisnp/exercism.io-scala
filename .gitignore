@@ -2,9 +2,13 @@
 .ionide/
 /*/project/
 /*/target/
+/*/null/
 /*/.bsp/
-project/*
-target/*
+# .bsp/*
+.bsp/
+sbt.json
+/project/*
+/target/*
 cleanup.ps1
 
 .fake

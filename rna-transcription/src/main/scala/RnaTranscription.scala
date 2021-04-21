@@ -2,7 +2,7 @@ import scala.util.Try
 
 object RnaTranscription {
 
-    def complement(nuc: Char): Char = {
+    def rnaComplement(nuc: Char): Char = {
         nuc match {
             case 'A' => 'U'
             case 'C' => 'G'
@@ -13,6 +13,6 @@ object RnaTranscription {
 
     def toRna(dna: String): Option[String] = 
         Try { 
-            dna.map(complement) 
+            dna.map(rnaComplement) 
         }.toOption
 }
