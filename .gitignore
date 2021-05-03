@@ -9,6 +9,5 @@
 sbt.json
 /project/*
 /target/*
-cleanup.ps1
-
+cleanup.*
 .fake
