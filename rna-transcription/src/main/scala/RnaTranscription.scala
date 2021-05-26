@@ -12,7 +12,5 @@ object RnaTranscription {
     }
 
     def toRna(dna: String): Option[String] = 
-        Try { 
-            dna.map(rnaComplement) 
-        }.toOption
+        Try { dna.map(rnaComplement) }.toOption
 }
