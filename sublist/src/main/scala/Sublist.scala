@@ -11,8 +11,8 @@ object Sublist extends Enumeration {
                    .count(_ == sub)
     }
 
-    def sublist(a: List[_], b: List[_]): ListOverLap =
-        (a.contained(b), b.contained(a)) match {
+    def sublist(xs: List[_], ys: List[_]): ListOverLap =
+        (xs.contained(ys), ys.contained(xs)) match {
             case (1, 1) => Equal
             case (1, 0) => Superlist
             case (0, 1) => Sublist

@@ -18,9 +18,38 @@
 [info] - should return correct arbitrary value at index
 [info] - should return original arbitrary list from added list elements
 [info] - should handle arbitrary generics
-[info] Run completed in 1 second, 634 milliseconds.
+[info] Run completed in 1 second, 139 milliseconds.
 [info] Total number of tests run: 13
 [info] Suites: completed 1, aborted 0
 [info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 5 s, completed 6 ╬ε╬▒╧Λ 2021 4:43:01 ╬╝╬╝
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_291)
+[info] loading project definition from ~\exercism\scala\simple-linked-list\project
+[info] loading settings for project simple-linked-list from build.sbt ...
+[info] set current project to simple-linked-list (in build file:/~/exercism/scala/simple-linked-list/)
+[info] SimpleLinkedListTest:
+[info] - should handle single item list
+[info] - should handle single item has no next item
+[info] - should handle two item list
+[info] - should handle two item list has no next value
+[info] - should allow creation from a Seq
+[info] - should allow conversion to a Seq
+[info] - should handle reverse
+[info] - should handle arbitrary list fromSeq toSeq
+[info] - should handle reverse arbitrary list
+[info] - should reverse arbitrary list back to original
+[info] - should return correct arbitrary value at index
+[info] - should return original arbitrary list from added list elements
+[info] - should handle arbitrary generics
+[info] Run completed in 1 second, 669 milliseconds.
+[info] Total number of tests run: 13
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 4 June 2021 5:28:47 ╧Α╬╝
