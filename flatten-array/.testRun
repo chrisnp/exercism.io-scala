@@ -1,0 +1,20 @@
+>sbt test
+
+[info] Loading project definition from ~\exercism\scala\flatten-array\project
+[info] Loading settings from build.sbt ...
+[info] Set current project to flatten-array (in build file:/~/exercism/scala/flatten-array/)
+[info] Compiling 1 Scala source to ~\exercism\scala\flatten-array\target\scala-2.12\classes ...
+[info] Done compiling.
+[info] FlattenArrayTest:
+[info] - no nesting
+[info] - flattens array with just integers present
+[info] - 5 level nesting
+[info] - 6 level nesting
+[info] - 6 level nest list with null values
+[info] - all values in nested list are null
+[info] Run completed in 3 seconds, 373 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 18 s, completed 5 June 2021 5:22:05 PM
