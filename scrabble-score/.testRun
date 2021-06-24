@@ -1,0 +1,24 @@
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_291)
+[info] loading project definition from ~\exercism\scala\scrabble-score\project
+[info] loading settings for project scrabble-score from build.sbt ...
+[info] set current project to scrabble-score (in build file:/~/exercism/scala/scrabble-score/)
+[info] ScrabbleScoreTest:
+[info] - lowercase letter
+[info] - uppercase letter
+[info] - valuable letter
+[info] - short word
+[info] - short, valuable word
+[info] - medium word
+[info] - medium, valuable word
+[info] - long, mixed-case word
+[info] - english-like word
+[info] - empty input
+[info] - entire alphabet available
+[info] Run completed in 899 milliseconds.
+[info] Total number of tests run: 11
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 24 Ιουνίου 2021 1:55:41 ΜΜ
