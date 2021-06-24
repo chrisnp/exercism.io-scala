@@ -19,7 +19,7 @@ object QueenAttack {
             case (0, 0) => throw new Exception("same square")
             case (_, 0) => true 
             case (0, _) => true
-            case (x, y) => x / y == 1
+            case (x, y) => x == y
         }
     }
 }
