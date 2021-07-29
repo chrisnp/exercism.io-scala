@@ -1,0 +1,16 @@
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_291)
+[info] loading project definition from C:\Users\Chris\exercism\scala\series\project
+[info] loading settings for project series from build.sbt ...
+[info] set current project to series (in build file:/C:/Users/Chris/exercism/scala/series/)
+[info] SeriesTest:
+[info] - slices of one
+[info] - slices of two
+[info] - slices of three
+[info] Run completed in 1 second, 56 milliseconds.
+[info] Total number of tests run: 3
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 30 ╬β╬┐╧Ζ╬╗ 2021 2:47:09 ╧Α╬╝
