@@ -1,1 +1,9 @@
-{"track":"scala","exercise":"perfect-numbers","id":"64cb5567fe964c94945fc101e8271a16","url":"https://exercism.io/my/solutions/64cb5567fe964c94945fc101e8271a16","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "scala",
+    "exercise": "perfect-numbers",
+    "id": "64cb5567fe964c94945fc101e8271a16",
+    "url": "https://exercism.io/tracks/scala/exercises/perfect-numbers/solutions/64cb5567fe964c94945fc101e8271a16",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
