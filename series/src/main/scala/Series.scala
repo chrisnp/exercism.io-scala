@@ -1,16 +1,16 @@
 object Series {
 
-    def windows[T](list: List[T], size: Int): List[List[T]] = {
-        val window = list.take(size).toList
+    def windows[T](list: Seq[T], size: Int): Seq[Seq[T]] = {
+        val window = list.take(size)
         if (window.length > size - 1)
-            window :: windows(list.tail, size)
+            window +: windows(list.tail, size)
         else
-            Nil 
+            Seq()
     }
     
     def slices(size: Int, text: String): Seq[Seq[Int]] = {
-        if (text == "") return Nil
-        val list = text.split("").map(_.toInt).toList
-        windows(list, size).toSeq
+        if (text == "") return Seq()
+        val list = text.split("").map(_.toInt)
+        windows(list, size)
     }
 }
