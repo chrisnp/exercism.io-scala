@@ -4,6 +4,7 @@
 /*/target/
 /*/null/
 /*/.bsp/
+HELP.md
 # .bsp/*
 .bsp/
 sbt.json
