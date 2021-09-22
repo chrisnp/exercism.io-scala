@@ -5,13 +5,12 @@ case class Cipher (keyOpt: Option[String]) {
     val key = keyOpt.getOrElse(generateKey(100))
     require(key.nonEmpty && key.forall(_.isLower))
 
+    def encode(plainText: String): String = shift(plainText, right)
+    def decode(cipherText: String): String = shift(cipherText, left)
 
-    def generateKey(len: Int) = 
-        Random.alphanumeric
-              .filter(_ isLetter)
-              .map(_ toLower)
-              .take(len)
-              .mkString
+    private def generateKey(len: Int) = 
+        Random.alphanumeric.filter(_ isLetter)
+              .map(_ toLower).take(len).mkString
 
     private val right: (Int, Int) => Int = {case (x, y) => x + y}
     private val left: (Int, Int) => Int = {case (x, y) => x - y}
@@ -23,8 +22,4 @@ case class Cipher (keyOpt: Option[String]) {
             case (c, offset) => ((f(c, offset) - 'a') % 26 + 'a').toChar
         }
         .mkString
-
-    def encode(plainText: String): String = shift(plainText, right)
-    
-    def decode(cipherText: String): String = shift(cipherText, left)
 }
