@@ -1,0 +1,22 @@
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\simple-cipher\project
+[info] loading settings for project simple-cipher from build.sbt ...
+[info] set current project to simple-cipher (in build file:/~/exercism/scala/simple-cipher/)
+[info] CipherTest:
+[info] - Random key cipher - can encode/decode
+[info] - Invalid key - contains caps
+[info] - Invalid key - contains numerics
+[info] - Invalid key - is empty
+[info] - Substitution cipher - can encode
+[info] - Substitution cipher - can decode
+[info] - Substitution cipher - is reversible
+[info] - Substitution cipher - can double shift
+[info] - Substitution cipher - can wrap
+[info] Run completed in 1 second, 597 milliseconds.
+[info] Total number of tests run: 9
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 22 Sept 2021 5:49:58 PM
