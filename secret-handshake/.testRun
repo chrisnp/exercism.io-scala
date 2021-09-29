@@ -1,0 +1,26 @@
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\secret-handshake\project
+[info] loading settings for project secret-handshake from build.sbt ...
+[info] set current project to secret-handshake (in build file:/~/exercism/scala/secret-handshake/)
+[info] compiling 1 Scala source to ~\exercism\scala\secret-handshake\target\scala-2.12\test-classes ...
+[info] done compiling
+[info] SecretHandshakeTest:
+[info] - wink for 1
+[info] - double blink for 10
+[info] - close your eyes for 100
+[info] - jump for 1000
+[info] - combine two actions
+[info] - reverse two actions
+[info] - reversing one action gives the same action
+[info] - reversing no actions still gives no actions
+[info] - all possible actions
+[info] - reverse all possible actions
+[info] - do nothing for zero
+[info] Run completed in 2 seconds, 296 milliseconds.
+[info] Total number of tests run: 11
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 25 s, completed 30 Sept 2021 12:32:28 AM
