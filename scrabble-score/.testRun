@@ -22,3 +22,37 @@
 [info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 4 s, completed 24 Ιουνίου 2021 1:55:41 ΜΜ
+
+
+
+>sbt test
+
+[info] Updated file ~\exercism\scala\scrabble-score\project\build.properties: set sbt.version to 1.5.0
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\scrabble-score\project
+[info] loading settings for project scrabble-score from build.sbt ...
+[info] set current project to scrabble-score (in build file:/~/exercism/scala/scrabble-score/)
+[info] compiling 1 Scala source to ~\exercism\scala\scrabble-score\target\scala-2.12\classes ...
+[warn] there were two feature warnings; re-run with -feature for details
+[warn] one warning found
+[info] done compiling
+[info] compiling 1 Scala source to ~\exercism\scala\scrabble-score\target\scala-2.12\test-classes ...
+[info] done compiling
+[info] ScrabbleScoreTest:
+[info] - lowercase letter
+[info] - uppercase letter
+[info] - valuable letter
+[info] - short word
+[info] - short, valuable word
+[info] - medium word
+[info] - medium, valuable word
+[info] - long, mixed-case word
+[info] - english-like word
+[info] - empty input
+[info] - entire alphabet available
+[info] Run completed in 1 second, 239 milliseconds.
+[info] Total number of tests run: 11
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 19 s, completed 6 Oct. 2021 12:22:21 AM
