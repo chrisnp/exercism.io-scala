@@ -30,3 +30,38 @@
 [info] Tests: succeeded 19, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 16 June 2021 12:59:18 AM
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\roman-numerals\project
+[info] loading settings for project roman-numerals from build.sbt ...
+[info] set current project to roman-numerals (in build file:/~/exercism/scala/roman-numerals/)
+[info] RomanNumeralsTest:
+[info] - 1 is a single I
+[info] - 2 is two I's
+[info] - 3 is three I's
+[info] - 4, being 5 - 1, is IV
+[info] - 5 is a single V
+[info] - 6, being 5 + 1, is VI
+[info] - 9, being 10 - 1, is IX
+[info] - 20 is two X's
+[info] - 48 is not 50 - 2 but rather 40 + 8
+[info] - 49 is not 40 + 5 + 4 but rather 50 - 10 + 10 - 1
+[info] - 50 is a single L
+[info] - 90, being 100 - 10, is XC
+[info] - 100 is a single C
+[info] - 60, being 50 + 10, is LX
+[info] - 400, being 500 - 100, is CD
+[info] - 500 is a single D
+[info] - 900, being 1000 - 100, is CM
+[info] - 1000 is a single M
+[info] - 3000 is three M's
+[info] Run completed in 1 second, 76 milliseconds.
+[info] Total number of tests run: 19
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 19, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 6 Oct. 2021 12:21:31 AM
