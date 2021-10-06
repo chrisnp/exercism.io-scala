@@ -1,7 +1,7 @@
 object ScrabbleScore {
 
     def score(letter : Char) : Int = {
-        letter.toUpper match {
+        letter toUpper match {
             case 'A' | 'E' | 'I' | 'O' | 'U'  =>  1
             case 'L' | 'N' | 'R' | 'S' | 'T'  =>  1
             case 'D' | 'G'                    =>  2
@@ -14,5 +14,5 @@ object ScrabbleScore {
     }
 
     def score(word : String) : Int = 
-        word.map(letter => score(letter)).sum    
+        word map(letter => score(letter)) sum    
 }
