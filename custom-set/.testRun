@@ -1,0 +1,51 @@
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\custom-set\project
+[info] loading settings for project custom-set from build.sbt ...
+[info] set current project to custom-set (in build file:/~/exercism/scala/custom-set/)
+[info] CustomSetTest:
+[info] - sets with no elements are empty
+[info] - sets with elements are not empty
+[info] - nothing is contained in an empty set
+[info] - when the element is in the set
+[info] - when the element is not in the set
+[info] - empty set is a subset of another empty set
+[info] - empty set is a subset of non-empty set
+[info] - non-empty set is not a subset of empty set
+[info] - set is a subset of set with exact same elements
+[info] - set is a subset of larger set with same elements
+[info] - set is not a subset of set that does not contain its elements
+[info] - the empty set is disjoint with itself
+[info] - empty set is disjoint with non-empty set
+[info] - non-empty set is disjoint with empty set
+[info] - sets are not disjoint if they share an element
+[info] - sets are disjoint if they share no elements
+[info] - empty sets are equal
+[info] - empty set is not equal to non-empty set
+[info] - non-empty set is not equal to empty set
+[info] - sets with the same elements are equal
+[info] - sets with different elements are not equal
+[info] - set is not equal to larger set with same elements
+[info] - add to empty set
+[info] - add to non-empty set
+[info] - adding an existing element does not change the set
+[info] - intersection of two empty sets is an empty set
+[info] - intersection of an empty set and non-empty set is an empty set
+[info] - intersection of a non-empty set and an empty set is an empty set
+[info] - intersection of two sets with no shared elements is an empty set
+[info] - intersection of two sets with shared elements is a set of the shared elements
+[info] - difference of two empty sets is an empty set
+[info] - difference of empty set and non-empty set is an empty set
+[info] - difference of a non-empty set and an empty set is the non-empty set
+[info] - difference of two non-empty sets is a set of elements that are only in the first set
+[info] - union of empty sets is an empty set
+[info] - union of an empty set and non-empty set is the non-empty set
+[info] - union of a non-empty set and empty set is the non-empty set
+[info] - union of non-empty sets contains all unique elements
+[info] Run completed in 1 second, 246 milliseconds.
+[info] Total number of tests run: 38
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 38, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 6 Oct. 2021 3:11:43 PM
