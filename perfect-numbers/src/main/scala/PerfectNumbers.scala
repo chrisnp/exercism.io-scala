@@ -3,8 +3,7 @@ object PerfectNumbers {
 
     def classify(number: Int): Either[String, NumberType] = {
         if (number <= 0) 
-            Left("Classification is only possible " + 
-                 "for natural numbers.")
+            Left("Classification is only possible for natural numbers.")
         else aliquotSum(number) match {
             case `number` => Right(NumberType.Perfect)
             case a if a > number => 
@@ -16,7 +15,5 @@ object PerfectNumbers {
     }
 
     def aliquotSum(number: Int): Int =
-        (1 to number / 2)
-        .filter {number % _ == 0} 
-        .foldLeft(0) {_+_}
+        (1 to number / 2).filter {number % _ == 0}.foldLeft(0) {_+_}
 }
