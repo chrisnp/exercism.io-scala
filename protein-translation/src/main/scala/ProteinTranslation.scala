@@ -15,5 +15,5 @@ object ProteinTranslation {
         }
 
     def proteins(strand: String): Seq[String] = 
-        strand grouped(3) takeWhile(translate(_) != "STOP") map(translate _) toSeq
+        strand sliding(3, 3) map(translate _) takeWhile(_ != "STOP") toSeq
 }
