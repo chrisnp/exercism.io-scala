@@ -34,3 +34,49 @@
 [info] Tests: succeeded 23, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 5 s, completed 12 Sept. 2021 4:56:08 PM
+
+
+
+>sbt test
+
+[info] Updated file ~\exercism\scala\protein-translation\project\build.properties: set sbt.version to 1.5.0
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\protein-translation\project
+[info] loading settings for project protein-translation from build.sbt ...
+[info] set current project to protein-translation (in build file:/~/exercism/scala/protein-translation/)
+[info] compiling 1 Scala source to ~\exercism\scala\protein-translation\target\scala-2.12\classes ...
+[warn] there was one feature warning; re-run with -feature for details
+[warn] one warning found
+[info] done compiling
+[info] compiling 1 Scala source to ~\exercism\scala\protein-translation\target\scala-2.12\test-classes ...
+[info] done compiling
+[info] ProteinTranslationTest:
+[info] - Methionine RNA sequence
+[info] - Phenylalanine RNA sequence 1
+[info] - Phenylalanine RNA sequence 2
+[info] - Leucine RNA sequence 1
+[info] - Leucine RNA sequence 2
+[info] - Serine RNA sequence 1
+[info] - Serine RNA sequence 2
+[info] - Serine RNA sequence 3
+[info] - Serine RNA sequence 4
+[info] - Tyrosine RNA sequence 1
+[info] - Tyrosine RNA sequence 2
+[info] - Cysteine RNA sequence 1
+[info] - Cysteine RNA sequence 2
+[info] - Tryptophan RNA sequence
+[info] - STOP codon RNA sequence 1
+[info] - STOP codon RNA sequence 2
+[info] - STOP codon RNA sequence 3
+[info] - Translate RNA strand into correct protein list
+[info] - Translation stops if STOP codon at beginning of sequence
+[info] - Translation stops if STOP codon at end of two-codon sequence
+[info] - Translation stops if STOP codon at end of three-codon sequence
+[info] - Translation stops if STOP codon in middle of three-codon sequence
+[info] - Translation stops if STOP codon in middle of six-codon sequence
+[info] Run completed in 1 second, 345 milliseconds.
+[info] Total number of tests run: 23
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 23, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 17 s, completed 29 Sept 2021 5:32:17 PM
