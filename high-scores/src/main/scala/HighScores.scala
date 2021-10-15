@@ -1,11 +1,11 @@
 object HighScores {
     def personalTop(scores: Seq[Int]): Seq[Int] = 
         scores.sortWith(_>_).take(3)
-    def latest(scores: List[Int]): Int = 
+    def latest(scores: Seq[Int]): Int = 
         scores.last
-    def personalBest(scores: List[Int]): Int = 
+    def personalBest(scores: Seq[Int]): Int = 
         scores.max
-    def report(scores: List[Int]): String = {
+    def report(scores: Seq[Int]): String = {
         val premise: String = 
             s"Your latest score was ${latest(scores)}. "
         val difference: String = 
