@@ -1,0 +1,24 @@
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\high-scores\project
+[info] loading settings for project high-scores from build.sbt ...
+[info] set current project to high-scores (in build file:/~/exercism/scala/high-scores/)
+[info] HighScoresTest:
+[info] - Latest score
+[info] - Personal best
+[info] - Personal top
+[info] - Personal top highest to lowest
+[info] - Personal top when there is a tie
+[info] - Personal top when there are less than 3
+[info] - Personal top when there is only one
+[info] - Personal top from a long list
+[info] - Message for new personal best
+[info] - Message when latest score is not the highest score
+[info] - Message for repeated personal best
+[info] Run completed in 1 second, 171 milliseconds.
+[info] Total number of tests run: 11
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 15 Oct 2021 7:48:04 PM
