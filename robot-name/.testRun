@@ -13,3 +13,24 @@
 [info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 13 s, completed 3 ┴Ώ± 2019 8:19:52 ΉΉ
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from C:\Users\Chris\exercism\scala\robot-name\project
+[info] loading settings for project robot-name from build.sbt ...
+[info] set current project to robot-name (in build file:/C:/Users/Chris/exercism/scala/robot-name/)
+[info] RobotNameSpecs:
+[info] - has a name
+[info] - does not change its name
+[info] - does not have the same name as other robots
+[info] - can have its name reset
+[info] - a large number of new instances have unique names
+[info] Run completed in 4 seconds, 130 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 7 s, completed 12 ╬ζ╬┐╬╡ 2021 10:50:44 ╬╝╬╝
