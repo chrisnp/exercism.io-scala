@@ -1,25 +1,30 @@
-case class Bst[T: Ordering](data: T, left: Option[Bst[T]], right: Option[Bst[T]]) {
-    def insert(newValue: T): Bst[T] =
-        if (Ordering[T].lteq(newValue, data))
-            new Bst(data, insert(newValue, left), right)
-        else
-            new Bst(data, left, insert(newValue, right))
+import scala.math.Ordering.Implicits._
 
-    def insert(newValue: T, tree: Option[Bst[T]]): Option[Bst[T]] = tree match {
-        case Some(branch) => Some(branch.insert(newValue))
-        case None => Some(Bst(newValue))
-    }
+case class Bst[T: Ordering](value: T, 
+                            left: Option[Bst[T]] = None, 
+                            right: Option[Bst[T]] = None) {
+    def insert(item: T): Bst[T] =
+        if (item <= value) 
+            copy(left = left.map(_ insert item)
+                            .orElse(Some(Bst(item))))
+        else 
+            copy(right = right.map(_ insert item)
+                              .orElse(Some(Bst(item))))
 }
 
-object BST{
-    def apply[T: Ordering](data: T): Bst[T] = new Bst(data, None, None)
-    def fromList[T: Ordering](values: List[T]) = values match {
-        case x :: xs => xs.foldLeft(Bst(x))((tree, data) => tree.insert(data))
-        case Nil => throw new IllegalArgumentException("Cannot create tree from empty list")
+object Bst {
+    def apply[T: Ordering](value: T) = new Bst(value, None, None)
+
+    def fromList[T: Ordering](list: List [T]): Bst[T] = {
+        require(!list.isEmpty) 
+        list.tail.foldLeft (Bst(list.head)) (_ insert _)
     }
-    def toList[T: Ordering](tree: Bst[T]): List[T] = toList(Some(tree))
-    private def toList[T: Ordering](tree: Option[Bst[T]]): List[T] = tree match {
-        case Some(x) => toList(x.left) ++ List(x.data) ++ toList(x.right)
-        case None => Nil
+
+    def toList[T: Ordering](bst: Bst[T]): List[T] = {
+        val leftBST  = bst.left.map(toList(_)).getOrElse(List()) 
+        val value    = List(bst.value)
+        val rightBST = bst.right.map(toList(_)).getOrElse(List())
+        leftBST ::: value ::: rightBST
     }
+
 }
