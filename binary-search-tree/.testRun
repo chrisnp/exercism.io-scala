@@ -23,3 +23,36 @@
 [info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 5 s, completed 9 Feb 2022 11:08:25 AM
+
+
+
+>sbt test
+
+[info] Updated file ~\exercism\scala\binary-search-tree\project\build.properties: set sbt.version to 1.5.0
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\binary-search-tree\project
+[info] loading settings for project binary-search-tree from build.sbt ...
+[info] set current project to binary-search-tree (in build file:/~/exercism/scala/binary-search-tree/)
+[info] compiling 1 Scala source to ~\exercism\scala\binary-search-tree\target\scala-2.12\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to ~\exercism\scala\binary-search-tree\target\scala-2.12\test-classes ...
+[info] done compiling
+[info] BstTest:
+[info] - should retain data
+[info] - should retain data - char
+[info] - should insert less
+[info] - should insert less - char
+[info] - should insert same
+[info] - should insert greater than
+[info] - should handle complex tree - sort out of order list
+[info] - should iterating one element
+[info] - should iterating over smaller element
+[info] - should iterating over larger element
+[info] - should iterating over complex tree
+[info] - should iterating over complex tree - chars
+[info] Run completed in 1 second, 355 milliseconds.
+[info] Total number of tests run: 12
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 22 s, completed 18 Feb 2022 11:14:04 PM

@@ -1,7 +1,7 @@
 import scala.math.Ordering.Implicits._
 
 case class Bst[T: Ordering](value: T, 
-                            left: Option[Bst[T]] = None, 
+                            left:  Option[Bst[T]] = None, 
                             right: Option[Bst[T]] = None) {
     def insert(item: T): Bst[T] =
         if (item <= value) 
