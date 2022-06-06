@@ -54,3 +54,34 @@
 [info] Tests: succeeded 15, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 4 ╬ο╬╡╬▓ 2021 6:45:50 ╬╝╬╝
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\matching-brackets\project
+[info] loading settings for project matching-brackets from build.sbt ...
+[info] set current project to matching-brackets (in build file:/~/exercism/scala/matching-brackets/)
+[info] MatchingBracketsTest:
+[info] - paired square brackets
+[info] - empty string
+[info] - unpaired brackets
+[info] - wrong ordered brackets
+[info] - wrong closing bracket
+[info] - paired with whitespace
+[info] - partially paired brackets
+[info] - simple nested brackets
+[info] - several paired brackets
+[info] - paired and nested brackets
+[info] - unopened closing brackets
+[info] - unpaired and nested brackets
+[info] - paired and wrong nested brackets
+[info] - math expression
+[info] - complex latex expression
+[info] Run completed in 1 second, 451 milliseconds.
+[info] Total number of tests run: 15
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 15, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 7 s, completed 4 June 2022 9:50:31 PM
