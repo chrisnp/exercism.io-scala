@@ -9,12 +9,8 @@ object Luhn {
                         case d if d.isDigit => d
                         case _ => throw new Exception( "not a digit" )
                     }
-                    .reverse
-                    .zipWithIndex
-                    .map(id => (id._2, id._1))
-                    .map(addend _)
-                    .reverse
-                    .sum % 10 == 0
+                    .reverse.zipWithIndex.map(id => (id._2, id._1))
+                    .map(addend _).reverse.sum % 10 == 0
         }.getOrElse(false)  
 
     private def addend(indexedDigit: (Int, Char)) = 
