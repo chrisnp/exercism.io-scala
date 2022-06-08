@@ -61,3 +61,25 @@
 [info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 19 s, completed 23 ╬θ╬║╧Ε 2020, 5:42:55 ╬╝.╬╝.
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\collatz-conjecture\project
+[info] loading settings for project collatz-conjecture from build.sbt ...
+[info] set current project to collatz-conjecture (in build file:/~/exercism/scala/collatz-conjecture/)
+[info] CollatzConjectureTest:
+[info] - zero steps for one
+[info] - divide if even
+[info] - even and odd steps
+[info] - Large number of even and odd steps
+[info] - zero is an error
+[info] - negative value is an error
+[info] Run completed in 1 second, 254 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 5 June 2022 12:27:05 AM
