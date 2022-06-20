@@ -1,3 +1,5 @@
+// import scala.language.postfixOps
+
 class CustomSet[+T](items: Seq[T]) {
     val elements = items.distinct
 }
@@ -8,10 +10,10 @@ object CustomSet {
         new CustomSet(items)
 
     def toList[T](set: CustomSet[T]): Seq[T] =
-        set.elements toSeq
+        set.elements.toSeq
 
     def empty[T](set: CustomSet[T]): Boolean =
-        set.elements isEmpty
+        set.elements.isEmpty
 
     def singleton[T](set: CustomSet[T]): Boolean = 
         set.elements.size == 1
@@ -20,8 +22,7 @@ object CustomSet {
         set.elements contains item
 
     def isEqual[T](set1: CustomSet[T], set2: CustomSet[T]): Boolean =
-        CustomSet.isSubsetOf(set1, set2) &&
-        CustomSet.isSubsetOf(set2, set1)
+        CustomSet.isSubsetOf(set1, set2) && CustomSet.isSubsetOf(set2, set1)
         
     def isSubsetOf[T](set1: CustomSet[T], set2: CustomSet[T]): Boolean = 
         set1.elements.forall(member(set2, _))
