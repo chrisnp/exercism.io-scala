@@ -1,0 +1,23 @@
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\rotational-cipher\project
+[info] loading settings for project rotational-cipher from build.sbt ...
+[info] set current project to rotational-cipher (in build file:/~/exercism/scala/rotational-cipher/)
+[info] RotationalCipherTest:
+[info] - rotate a by 0, same output as input
+[info] - rotate a by 1
+[info] - rotate a by 26, same output as input
+[info] - rotate m by 13
+[info] - rotate n by 13 with wrap around alphabet
+[info] - rotate capital letters
+[info] - rotate spaces
+[info] - rotate numbers
+[info] - rotate punctuation
+[info] - rotate all letters
+[info] Run completed in 1 second, 33 milliseconds.
+[info] Total number of tests run: 10
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 6 s, completed 22 June 2022 2:35:52 AM
