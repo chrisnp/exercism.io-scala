@@ -26,3 +26,22 @@
 [info] Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 6 s, completed 22 ╔ΎΫΊ 2019 12:42:59 ΏΉ
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\two-fer\project
+[info] loading settings for project two-fer from build.sbt ...
+[info] set current project to two-fer (in build file:/~/exercism/scala/two-fer/)
+[info] TwoferTest:
+[info] - no name given
+[info] - a name given
+[info] - another name given
+[info] Run completed in 1 second, 295 milliseconds.
+[info] Total number of tests run: 3
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 8 JUNE 2022 9:26:08 PM

@@ -3,12 +3,11 @@ import java.time.LocalDateTime
 
 object Gigasecond {
 
-  final val GIGASECOND = 
-        Math.pow(10, 9).toLong 
+  final val GIGASECOND = Math pow(10, 9) toLong 
 
   def add(startDate: LocalDate): LocalDateTime = 
-        startDate.atStartOfDay().plusSeconds(GIGASECOND)
+        startDate atStartOfDay() plusSeconds(GIGASECOND)
 
   def add(startDateTime: LocalDateTime): LocalDateTime = 
-        startDateTime.plusSeconds(GIGASECOND)
+        startDateTime plusSeconds(GIGASECOND)
 }
