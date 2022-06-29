@@ -18,3 +18,25 @@
 [info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 18 s, completed 5 June 2021 5:22:05 PM
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\flatten-array\project
+[info] loading settings for project flatten-array from build.sbt ...
+[info] set current project to flatten-array (in build file:/~/exercism/scala/flatten-array/)
+[info] FlattenArrayTest:
+[info] - no nesting
+[info] - flattens array with just integers present
+[info] - 5 level nesting
+[info] - 6 level nesting
+[info] - 6 level nest list with null values
+[info] - all values in nested list are null
+[info] Run completed in 1 second, 768 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 7 s, completed 29 June 2022 7:55:02 PM
