@@ -1,9 +1,1 @@
-{
-    "track": "scala",
-    "exercise": "simple-linked-list",
-    "id": "54adbf11712b4d609deefb90d231e1cc",
-    "url": "https://exercism.io/tracks/scala/exercises/simple-linked-list/solutions/54adbf11712b4d609deefb90d231e1cc",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
-}
+{"track":"scala","exercise":"simple-linked-list","id":"54adbf11712b4d609deefb90d231e1cc","url":"https://exercism.org/tracks/scala/exercises/simple-linked-list","handle":"heptalophos","is_requester":true,"auto_approve":false}
