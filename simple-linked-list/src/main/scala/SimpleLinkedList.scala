@@ -1,4 +1,7 @@
-trait SimpleLinkedList[T] {
+import scala.language.postfixOps
+
+trait SimpleLinkedList[T] 
+{
     def isEmpty: Boolean
     def value: T
     def add(item: T): SimpleLinkedList[T]
@@ -7,7 +10,8 @@ trait SimpleLinkedList[T] {
     def toSeq: Seq[T]
 }
 
-case class EmptyNode[T]() extends SimpleLinkedList[T] {
+case class EmptyNode[T]() extends SimpleLinkedList[T] 
+{
     override def isEmpty: Boolean = true
     override def value: T = throw new Exception("empty node: no data")
     override def add(item: T): SimpleLinkedList[T] = Node(item, EmptyNode())
@@ -18,7 +22,8 @@ case class EmptyNode[T]() extends SimpleLinkedList[T] {
 }
 
 case class Node[T](val data: T, val link: SimpleLinkedList[T]) 
-extends SimpleLinkedList[T] {
+extends SimpleLinkedList[T] 
+{
     override def isEmpty: Boolean = false
     override def value: T = data
     override def add(item: T): SimpleLinkedList[T] = Node(value, next add(item))
