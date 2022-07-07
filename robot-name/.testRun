@@ -19,9 +19,9 @@
 >sbt test
 
 [info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
-[info] loading project definition from C:\Users\Chris\exercism\scala\robot-name\project
+[info] loading project definition from ~\exercism\scala\robot-name\project
 [info] loading settings for project robot-name from build.sbt ...
-[info] set current project to robot-name (in build file:/C:/Users/Chris/exercism/scala/robot-name/)
+[info] set current project to robot-name (in build file:/~/exercism/scala/robot-name/)
 [info] RobotNameSpecs:
 [info] - has a name
 [info] - does not change its name
