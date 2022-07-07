@@ -1,9 +1,9 @@
 >sbt test
 
 [info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
-[info] loading project definition from C:\Users\Chris\exercism\scala\pythagorean-triplet\project
+[info] loading project definition from ~\exercism\scala\pythagorean-triplet\project
 [info] loading settings for project pythagorean-triplet from build.sbt ...
-[info] set current project to pythagorean-triplet (in build file:/C:/Users/Chris/exercism/scala/pythagorean-triplet/)
+[info] set current project to pythagorean-triplet (in build file:/~/exercism/scala/pythagorean-triplet/)
 [info] PythagoreanTripletTest:
 [info] - isPythagorean
 [info] - pythagoreanTriplets 1 to 10
