@@ -70,14 +70,14 @@
 
 >sbt test
 
-[info] Updated file C:\Users\Chris\exercism\scala\roman-numerals\project\build.properties: set sbt.version to 1.5.0
+[info] Updated file ~\exercism\scala\roman-numerals\project\build.properties: set sbt.version to 1.5.0
 [info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
-[info] loading project definition from C:\Users\Chris\exercism\scala\roman-numerals\project
+[info] loading project definition from ~\exercism\scala\roman-numerals\project
 [info] loading settings for project roman-numerals from build.sbt ...
-[info] set current project to roman-numerals (in build file:/C:/Users/Chris/exercism/scala/roman-numerals/)
-[info] compiling 1 Scala source to C:\Users\Chris\exercism\scala\roman-numerals\target\scala-2.13\classes ...
+[info] set current project to roman-numerals (in build file:/~/exercism/scala/roman-numerals/)
+[info] compiling 1 Scala source to ~\exercism\scala\roman-numerals\target\scala-2.13\classes ...
 [info] done compiling
-[info] compiling 1 Scala source to C:\Users\Chris\exercism\scala\roman-numerals\target\scala-2.13\test-classes ...
+[info] compiling 1 Scala source to ~\exercism\scala\roman-numerals\target\scala-2.13\test-classes ...
 [info] done compiling
 [info] RomanNumeralsTest:
 [info] - 1 is a single I
