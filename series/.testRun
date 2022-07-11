@@ -33,3 +33,24 @@
 [info] Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 5 s, completed 30 July 2021 5:28:29 AM
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from ~\exercism\scala\series\project
+[info] loading settings for project series from build.sbt ...
+[info] set current project to series (in build file:/~/exercism/scala/series/)
+[info] compiling 1 Scala source to ~\exercism\scala\series\target\scala-2.13\test-classes ...
+[info] done compiling
+[info] SeriesTest:
+[info] - slices of one
+[info] - slices of two
+[info] - slices of three
+[info] Run completed in 1 second, 67 milliseconds.
+[info] Total number of tests run: 3
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 13 s, completed 12 July 2022, 2:15:39 Α.M.
