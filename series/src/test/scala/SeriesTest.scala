@@ -12,7 +12,7 @@ class SeriesTest extends AnyFunSuite with Matchers {
   }
 
   test("slices of two") { 
-    pending
+    // pending
     Series.slices(2, "") should be (List())
     Series.slices(2, "01") should be (List(List(0, 1)))
     Series.slices(2, "01234") should be (List(List(0, 1), List(1, 2), List(2, 3),
@@ -20,7 +20,7 @@ class SeriesTest extends AnyFunSuite with Matchers {
   }
 
   test("slices of three") { 
-    pending
+    // pending
     Series.slices(3, "") should be (List())
     Series.slices(3, "012") should be (List(List(0, 1, 2)))
     Series.slices(3, "01234") should be (List(List(0, 1, 2), List(1, 2, 3),
