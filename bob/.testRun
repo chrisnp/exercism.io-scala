@@ -36,120 +36,6 @@
 
 
 
-[info] Loading project definition from ~\exercism\scala\bob\project
-[info] Loading settings for project bob from build.sbt ...
-[info] Set current project to bob (in build file:/~/exercism/scala/bob/)
-[info] Compiling 1 Scala source to ~\exercism\scala\bob\target\scala-2.12\classes ...
-[info] Done compiling.
-[info] BobTest:
-[info] - stating something
-[info] - shouting
-[info] - shouting gibberish
-[info] - asking a question
-[info] - asking a numeric question
-[info] - asking gibberish
-[info] - talking forcefully
-[info] - using acronyms in regular speech
-[info] - forceful question
-[info] - shouting numbers
-[info] - no letters
-[info] - question with no letters
-[info] - shouting with special characters
-[info] - shouting with no exclamation mark
-[info] - statement containing question mark
-[info] - non-letters with question
-[info] - prattling on
-[info] - silence
-[info] - prolonged silence
-[info] - alternate silence
-[info] - multiple line question
-[info] - starting with whitespace
-[info] - ending with whitespace
-[info] - other whitespace
-[info] - non-question ending with whitespace
-[info] Run completed in 2 seconds, 593 milliseconds.
-[info] Total number of tests run: 25
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 25, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[success] Total time: 34 s, completed 21 ╔ΎΫΊ 2019 6:58:06 ΉΉ
-
-
-[info] Loading project definition from ~\exercism\scala\bob\project
-[info] Loading settings for project bob from build.sbt ...
-[info] Set current project to bob (in build file:/~/exercism/scala/bob/)
-[info] BobTest:
-[info] - stating something
-[info] - shouting
-[info] - shouting gibberish
-[info] - asking a question
-[info] - asking a numeric question
-[info] - asking gibberish
-[info] - talking forcefully
-[info] - using acronyms in regular speech
-[info] - forceful question
-[info] - shouting numbers
-[info] - no letters
-[info] - question with no letters
-[info] - shouting with special characters
-[info] - shouting with no exclamation mark
-[info] - statement containing question mark
-[info] - non-letters with question
-[info] - prattling on
-[info] - silence
-[info] - prolonged silence
-[info] - alternate silence
-[info] - multiple line question
-[info] - starting with whitespace
-[info] - ending with whitespace
-[info] - other whitespace
-[info] - non-question ending with whitespace
-[info] Run completed in 1 second, 88 milliseconds.
-[info] Total number of tests run: 25
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 25, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[success] Total time: 4 s, completed 24 ╔ΎΫΊ 2019 11:01:11 ΉΉ
-
-
-[info] Loading project definition from ~\exercism\scala\bob\project
-[info] Loading settings for project bob from build.sbt ...
-[info] Set current project to bob (in build file:/~/exercism/scala/bob/)
-[info] BobTest:
-[info] - stating something
-[info] - shouting
-[info] - shouting gibberish
-[info] - asking a question
-[info] - asking a numeric question
-[info] - asking gibberish
-[info] - talking forcefully
-[info] - using acronyms in regular speech
-[info] - forceful question
-[info] - shouting numbers
-[info] - no letters
-[info] - question with no letters
-[info] - shouting with special characters
-[info] - shouting with no exclamation mark
-[info] - statement containing question mark
-[info] - non-letters with question
-[info] - prattling on
-[info] - silence
-[info] - prolonged silence
-[info] - alternate silence
-[info] - multiple line question
-[info] - starting with whitespace
-[info] - ending with whitespace
-[info] - other whitespace
-[info] - non-question ending with whitespace
-[info] Run completed in 1 second, 97 milliseconds.
-[info] Total number of tests run: 25
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 25, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[success] Total time: 4 s, completed 25 ╔ΎΫΊ 2019 1:18:36 ΉΉ
-
-
-
 >sbt test
 
 [info] Loading project definition from ~\exercism\scala\bob\project
@@ -187,3 +73,49 @@
 [info] Tests: succeeded 25, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 5 s, completed 3 ┴Ώ± 2020 4:29:40 ΉΉ
+
+
+
+>sbt test
+
+[info] Updated file ~\exercism\scala\bob\project\build.properties: set sbt.version to 1.5.0
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from ~\exercism\scala\bob\project
+[info] loading settings for project bob from build.sbt ...
+[info] set current project to bob (in build file:/~/exercism/scala/bob/)
+[info] compiling 1 Scala source to ~\exercism\scala\bob\target\scala-2.12\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to ~\exercism\scala\bob\target\scala-2.12\test-classes ...
+[info] done compiling
+[info] BobTest:
+[info] - stating something
+[info] - shouting
+[info] - shouting gibberish
+[info] - asking a question
+[info] - asking a numeric question
+[info] - asking gibberish
+[info] - talking forcefully
+[info] - using acronyms in regular speech
+[info] - forceful question
+[info] - shouting numbers
+[info] - no letters
+[info] - question with no letters
+[info] - shouting with special characters
+[info] - shouting with no exclamation mark
+[info] - statement containing question mark
+[info] - non-letters with question
+[info] - prattling on
+[info] - silence
+[info] - prolonged silence
+[info] - alternate silence
+[info] - multiple line question
+[info] - starting with whitespace
+[info] - ending with whitespace
+[info] - other whitespace
+[info] - non-question ending with whitespace
+[info] Run completed in 1 second, 289 milliseconds.
+[info] Total number of tests run: 25
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 25, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 22 s, completed 11 July 2022, 5:21:14 P.M.
