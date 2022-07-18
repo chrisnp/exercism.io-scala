@@ -1,9 +1,1 @@
-{
-    "track": "scala",
-    "exercise": "clock",
-    "id": "2832f9f645c04d8ba032c6331fad5f1b",
-    "url": "https://exercism.io/tracks/scala/exercises/clock/solutions/2832f9f645c04d8ba032c6331fad5f1b",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
-}
+{"track":"scala","exercise":"clock","id":"2832f9f645c04d8ba032c6331fad5f1b","url":"https://exercism.org/tracks/scala/exercises/clock","handle":"heptalophos","is_requester":true,"auto_approve":false}
