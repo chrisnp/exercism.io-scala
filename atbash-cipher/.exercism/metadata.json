@@ -1,9 +1,1 @@
-{
-    "track": "scala",
-    "exercise": "atbash-cipher",
-    "id": "4221c81591d6423dbfd352c44d704acc",
-    "url": "https://exercism.org/tracks/scala/exercises/atbash-cipher/solutions/4221c81591d6423dbfd352c44d704acc",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
-}
+{"track":"scala","exercise":"atbash-cipher","id":"4221c81591d6423dbfd352c44d704acc","url":"https://exercism.org/tracks/scala/exercises/atbash-cipher","handle":"heptalophos","is_requester":true,"auto_approve":false}
