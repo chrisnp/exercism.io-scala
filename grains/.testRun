@@ -22,3 +22,30 @@
 [info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 30 s, completed 3 ╬ο╬╡╬▓ 2021 1:50:10 ╧Α╬╝
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from C:\Users\Chris\exercism\scala\grains\project
+[info] loading settings for project grains from build.sbt ...
+[info] set current project to grains (in build file:/C:/Users/Chris/exercism/scala/grains/)
+[info] GrainsTest:
+[info] - 1
+[info] - 2
+[info] - 3
+[info] - 4
+[info] - 16
+[info] - 32
+[info] - 64
+[info] - square 0 raises an exception
+[info] - negative square raises an exception
+[info] - square greater than 64 raises an exception
+[info] - returns the total number of grains on the board
+[info] Run completed in 654 milliseconds.
+[info] Total number of tests run: 11
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 2 s, completed 26 ╬Σ╧Ζ╬│ 2022, 8:12:53 ╬╝.╬╝.
