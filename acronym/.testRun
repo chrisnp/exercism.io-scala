@@ -69,3 +69,27 @@
 [info] Tests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 9 s, completed 11 Nov 2021 5:25:30 PM
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from ~\exercism\scala\acronym\project
+[info] loading settings for project acronym from build.sbt ...
+[info] set current project to acronym (in build file:/~/exercism/scala/acronym/)
+[info] AcronymTest:
+[info] - basic
+[info] - lowercase words
+[info] - punctuation
+[info] - all caps word
+[info] - punctuation without whitespace
+[info] - very long abbreviation
+[info] - consecutive delimiters
+[info] - apostrophes
+[info] Run completed in 932 milliseconds.
+[info] Total number of tests run: 8
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 29 Aug. 2022, 11:02:48 P.M.
