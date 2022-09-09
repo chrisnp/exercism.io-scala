@@ -1,9 +1,1 @@
-{
-  "track": "scala",
-  "exercise": "nth-prime",
-  "id": "f2c71c3dbe304e4dbb06b2c519d897ee",
-  "url": "https://exercism.io/tracks/scala/exercises/nth-prime/solutions/f2c71c3dbe304e4dbb06b2c519d897ee",
-  "handle": "heptalophos",
-  "is_requester": true,
-  "auto_approve": false
-}
+{"track":"scala","exercise":"nth-prime","id":"f2c71c3dbe304e4dbb06b2c519d897ee","url":"https://exercism.org/tracks/scala/exercises/nth-prime","handle":"heptalophos","is_requester":true,"auto_approve":false}
