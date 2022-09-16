@@ -80,3 +80,42 @@
 [info] Tests: succeeded 23, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 17 s, completed 29 Sept 2021 5:32:17 PM
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from C:\Users\Chris\exercism\scala\protein-translation\project
+[info] loading settings for project protein-translation from build.sbt ...
+[info] set current project to protein-translation (in build file:/C:/Users/Chris/exercism/scala/protein-translation/)
+[info] ProteinTranslationTest:
+[info] - Methionine RNA sequence
+[info] - Phenylalanine RNA sequence 1
+[info] - Phenylalanine RNA sequence 2
+[info] - Leucine RNA sequence 1
+[info] - Leucine RNA sequence 2
+[info] - Serine RNA sequence 1
+[info] - Serine RNA sequence 2
+[info] - Serine RNA sequence 3
+[info] - Serine RNA sequence 4
+[info] - Tyrosine RNA sequence 1
+[info] - Tyrosine RNA sequence 2
+[info] - Cysteine RNA sequence 1
+[info] - Cysteine RNA sequence 2
+[info] - Tryptophan RNA sequence
+[info] - STOP codon RNA sequence 1
+[info] - STOP codon RNA sequence 2
+[info] - STOP codon RNA sequence 3
+[info] - Translate RNA strand into correct protein list
+[info] - Translation stops if STOP codon at beginning of sequence
+[info] - Translation stops if STOP codon at end of two-codon sequence
+[info] - Translation stops if STOP codon at end of three-codon sequence
+[info] - Translation stops if STOP codon in middle of three-codon sequence
+[info] - Translation stops if STOP codon in middle of six-codon sequence
+[info] Run completed in 917 milliseconds.
+[info] Total number of tests run: 23
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 23, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 16 Sept. 2022, 11:52:07 P.M.
