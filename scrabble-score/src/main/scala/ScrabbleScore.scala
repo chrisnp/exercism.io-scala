@@ -1,5 +1,6 @@
 object ScrabbleScore {
-
+    import scala.language.postfixOps
+    
     def score(letter : Char) : Int = {
         letter toUpper match {
             case 'A' | 'E' | 'I' | 'O' | 'U'  =>  1

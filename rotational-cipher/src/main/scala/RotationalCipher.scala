@@ -7,9 +7,11 @@ object RotationalCipher {
     }
 
     def rotate(plaintext: String, shift: Int): String = {
-        if (shift == 0) return plaintext
         plaintext
-        .map(ch => if (!ch.isLetter) ch else rotate(ch, shift))
+        .map(ch => 
+                if (!ch.isLetter) ch 
+                else rotate(ch, shift)
+            )
         .mkString   
     }
 }
