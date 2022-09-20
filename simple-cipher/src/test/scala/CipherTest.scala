@@ -1,7 +1,9 @@
-import org.scalatest.{Matchers, FunSuite}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
+
 
 /** @version created manually **/
-class CipherTest extends FunSuite with Matchers {
+class CipherTest extends AnyFunSuite with Matchers {
 
   test("Random key cipher - can encode/decode") {
     // Here we take advantage of the fact that plaintext of "aaa..."
@@ -14,50 +16,50 @@ class CipherTest extends FunSuite with Matchers {
   }
 
   test("Invalid key - contains caps") { 
-    // pending
+    pending
     intercept[IllegalArgumentException] { 
       Cipher(Some("ABCD"))
     }
   }
 
   test("Invalid key - contains numerics") { 
-    // pending
+    pending
     intercept[IllegalArgumentException] {
       Cipher(Some("123"))
     }
   }
 
   test("Invalid key - is empty") { 
-    // pending
+    pending
     intercept[IllegalArgumentException] {
       Cipher(Some(""))
     }
   }
 
   test("Substitution cipher - can encode") { 
-    // pending
+    pending
     Cipher(Some("abcdefghij")).encode("aaaaaaaaaa") should be ("abcdefghij")
   }
 
   test("Substitution cipher - can decode") { 
-    // pending
+    pending
     Cipher(Some("abcdefghij")).decode("abcdefghij") should be ("aaaaaaaaaa")
   }
 
   test("Substitution cipher - is reversible") { 
-    // pending
+    pending
     val cipher = Cipher(Some("abcdefghij"))
     cipher.decode(cipher.encode("abcdefghij")) should be ("abcdefghij")
   }
 
   test("Substitution cipher - can double shift") { 
-    // pending
+    pending
     val cipher = Cipher(Some("iamapandabear"))
     cipher.encode("iamapandabear") should be ("qayaeaagaciai")
   }
 
   test("Substitution cipher - can wrap") { 
-    // pending
+    pending
     Cipher(Some("abcdefghij")).encode("zzzzzzzzzz") should be ("zabcdefghi")
   }
 }
