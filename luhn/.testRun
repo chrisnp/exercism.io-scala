@@ -56,4 +56,34 @@
 [info] Suites: completed 1, aborted 0
 [info] Tests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
-[success] Total time: 16 s, completed 11 ╬ε╬▒╧Λ 2022 12:20:53 ╧Α╬╝
+[success] Total time: 16 s, completed 11 June 2022 12:20:53 A.M.
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from C:\Users\Chris\exercism\scala\luhn\project
+[info] loading settings for project luhn from build.sbt ...
+[info] set current project to luhn (in build file:/C:/Users/Chris/exercism/scala/luhn/)
+[info] LuhnTest:
+[info] - single digit strings can not be valid
+[info] - a single zero is invalid
+[info] - a simple valid SIN that remains valid if reversed
+[info] - a simple valid SIN that becomes invalid if reversed
+[info] - a valid Canadian SIN
+[info] - invalid Canadian SIN
+[info] - invalid credit card
+[info] - valid strings with a non-digit included become invalid
+[info] - valid strings with punctuation included become invalid
+[info] - valid strings with symbols included become invalid
+[info] - single zero with space is invalid
+[info] - more than a single zero is valid
+[info] - input digit 9 is correctly converted to output digit 9
+[info] - strings with non-digits is invalid
+[info] Run completed in 895 milliseconds.
+[info] Total number of tests run: 14
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 6 Oct. 2022, 5:39:36 P.M.

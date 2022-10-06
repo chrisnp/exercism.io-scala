@@ -13,10 +13,12 @@ object Luhn {
                     .map(addend _).reverse.sum % 10 == 0
         }.getOrElse(false)  
 
-    private def addend(indexedDigit: (Int, Char)) = 
-        indexedDigit match {
-            case (i, d) if i % 2 == 0    => d.asDigit
-            case (_, d) if d.asDigit > 4 => 2 * d.asDigit - 9
-            case (_, d)                  => 2 * d.asDigit 
+    private def addend(indexedDigit: (Int, Char)) = {
+        val idig = (indexedDigit._1, indexedDigit._2.asDigit)
+        idig match {
+            case (i, d) if i % 2 == 0 =>  d
+            case (_, d) if d > 4      => (d << 1) - 9
+            case (_, d)               =>  d << 1
         }
+    }
 }
