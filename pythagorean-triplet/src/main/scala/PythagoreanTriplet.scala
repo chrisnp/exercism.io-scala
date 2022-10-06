@@ -1,10 +1,5 @@
 object PythagoreanTriplet {
-    def isPythagorean(triplet: (Int, Int, Int)): Boolean = {
-        val Seq(x: Int, y: Int, z: Int) = 
-            Seq(triplet._1, triplet._2, triplet._3).sortWith(_ > _)
-        x * x == y * y + z * z 
-    }
-    
+
     def pythagoreanTriplets(start: Int, end: Int): Seq[(Int, Int, Int)] = {
         for {
             x <- (start to end - 2).toSeq
@@ -13,5 +8,12 @@ object PythagoreanTriplet {
             triplet = (x, y, z)
             if isPythagorean(triplet)
         } yield triplet
+    }
+
+    def isPythagorean(triplet: (Int, Int, Int)): Boolean = {
+        val sq = (x: Int) => x * x
+        val Seq(x: Int, y: Int, z: Int) = 
+            Seq(triplet._1, triplet._2, triplet._3).sortWith(_ > _)
+        2 * sq(x) == List(x, y, z).map(a => sq(a)).fold(0)(_ + _)
     }
 }
