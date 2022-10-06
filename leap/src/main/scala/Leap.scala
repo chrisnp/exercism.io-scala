@@ -1,7 +1,7 @@
 object Leap {
   def leapYear(year: Int): Boolean = {
-    val dividedBy: (Int) => Boolean = 
-        year % _ == 0
+    val dividedBy: (Int) => Boolean = year % _ == 0
+    
     (dividedBy(4), dividedBy(100), dividedBy(400)) 
     match {
       case (_, _, true) => true
