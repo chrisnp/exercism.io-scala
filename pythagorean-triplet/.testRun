@@ -35,3 +35,26 @@
 [info] Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 6 Oct. 2022, 4:41:55 P.M.
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from C:\Users\Chris\exercism\scala\pythagorean-triplet\project
+[info] loading settings for project pythagorean-triplet from build.sbt ...
+[info] set current project to pythagorean-triplet (in build file:/C:/Users/Chris/exercism/scala/pythagorean-triplet/)
+[info] PythagoreanTripletTest:
+[info] - isPythagorean
+[info] - pythagoreanTriplets 1 to 10
+[info] - pythagoreanTriplets 11 to 20
+[info] - pythagoreanTriplets 56 to 95
+[info] - pythagoreanTripletsSum N=180
+[info] - pythagoreanTripletsSum N=1000
+[info] - pythagoreanTripletsSum for a large number N=30000
+[info] Run completed in 882 milliseconds.
+[info] Total number of tests run: 7
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 7 Oct. 2022, 12:28:17 P.M.
