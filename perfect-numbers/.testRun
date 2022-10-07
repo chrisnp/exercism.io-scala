@@ -24,3 +24,32 @@
 [info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 4 s, completed 31 July 2021 7:13:38 AM
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from C:\Users\Chris\exercism\scala\perfect-numbers\project
+[info] loading settings for project perfect-numbers from build.sbt ...
+[info] set current project to perfect-numbers (in build file:/C:/Users/Chris/exercism/scala/perfect-numbers/)
+[info] PerfectNumbersTest:
+[info] - Smallest perfect number is classified correctly
+[info] - Medium perfect number is classified correctly
+[info] - Large perfect number is classified correctly
+[info] - Smallest abundant number is classified correctly
+[info] - Medium abundant number is classified correctly
+[info] - Large abundant number is classified correctly
+[info] - Smallest prime deficient number is classified correctly
+[info] - Smallest non-prime deficient number is classified correctly
+[info] - Medium deficient number is classified correctly
+[info] - Large deficient number is classified correctly
+[info] - Edge case (no factors other than itself) is classified correctly
+[info] - Zero is rejected (not a natural number)
+[info] - Negative integer is rejected (not a natural number)
+[info] Run completed in 1 second, 910 milliseconds.
+[info] Total number of tests run: 13
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 5 s, completed 6 Oct. 2022, 6:16:52 P.M.
