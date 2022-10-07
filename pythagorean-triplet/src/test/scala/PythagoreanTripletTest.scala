@@ -34,4 +34,9 @@ class PythagoreanTripletTest extends AnyFunSuite with Matchers {
     // pending
     PythagoreanTriplet.pythagoreanTripletsSum(1000) should be (Seq((200, 375, 425)))
   }
+  
+  test("pythagoreanTripletsSum for a large number N=30000") {
+    // pending
+    PythagoreanTriplet.pythagoreanTripletsSum(30000) should be(Seq((1200, 14375, 14425), (1875, 14000, 14125), (5000, 12000, 13000), (6000, 11250, 12750), (7500, 10000, 12500)))
+  }
 }
