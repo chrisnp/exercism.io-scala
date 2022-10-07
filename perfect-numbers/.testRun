@@ -30,9 +30,9 @@
 >sbt test
 
 [info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
-[info] loading project definition from C:\Users\Chris\exercism\scala\perfect-numbers\project
+[info] loading project definition from ~\exercism\scala\perfect-numbers\project
 [info] loading settings for project perfect-numbers from build.sbt ...
-[info] set current project to perfect-numbers (in build file:/C:/Users/Chris/exercism/scala/perfect-numbers/)
+[info] set current project to perfect-numbers (in build file:/~/exercism/scala/perfect-numbers/)
 [info] PerfectNumbersTest:
 [info] - Smallest perfect number is classified correctly
 [info] - Medium perfect number is classified correctly
