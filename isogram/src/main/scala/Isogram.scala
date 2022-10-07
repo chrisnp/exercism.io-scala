@@ -1,6 +1,6 @@
 object Isogram {
     def isIsogram(str: String): Boolean = {
-        val normalized = str filter(_ isLetter) map(_ toLower)
-        normalized.distinct.size == normalized.size
+        val sanitized = str filter(_ isLetter) map(_ toLower)
+        sanitized.toSet.size == sanitized.size
     }
 }

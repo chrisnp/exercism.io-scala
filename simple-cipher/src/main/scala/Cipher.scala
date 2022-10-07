@@ -4,7 +4,7 @@ import scala.language.postfixOps
 case class Cipher (keyOpt: Option[String]) {
 
     val key = keyOpt getOrElse(generateKey(100))
-    require(key.nonEmpty && key.forall(_.isLower))
+    require(key.nonEmpty && key.forall(_ isLower))
 
     def encode(plainText: String): String = shift(plainText, right)
     def decode(cipherText: String): String = shift(cipherText, left)
@@ -17,7 +17,7 @@ case class Cipher (keyOpt: Option[String]) {
     private val left:  (Int, Int) => Int = {case (x, y) => x - y}
 
     private def shift(text: String, f: (Int, Int) => Int): String =
-        text.zip(key.map(_ - 'a'))
+        text.zip(key map(_ - 'a'))
             .map {
                 case (c, offset) => 
                       ((f(c, offset) - 'a') % 26 + 'a') toChar

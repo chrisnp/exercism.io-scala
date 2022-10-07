@@ -5,13 +5,9 @@ import org.scalatest.matchers.should.Matchers
 class PythagoreanTripletTest extends AnyFunSuite with Matchers {
   test("isPythagorean") {
     PythagoreanTriplet.isPythagorean((3, 4, 5)) should be (true)
-    PythagoreanTriplet.isPythagorean((3, 5, 4)) should be (true)
-    PythagoreanTriplet.isPythagorean((4, 3, 5)) should be (true)
-    PythagoreanTriplet.isPythagorean((4, 5, 3)) should be (true)
-    PythagoreanTriplet.isPythagorean((5, 3, 4)) should be (true)
-    PythagoreanTriplet.isPythagorean((5, 4, 3)) should be (true)
     PythagoreanTriplet.isPythagorean((3, 3, 3)) should be (false)
     PythagoreanTriplet.isPythagorean((5, 6, 7)) should be (false)
+    PythagoreanTriplet.isPythagorean((200, 375, 425)) should be (true)
   }
 
   test("pythagoreanTriplets 1 to 10") {
@@ -27,5 +23,20 @@ class PythagoreanTripletTest extends AnyFunSuite with Matchers {
   test("pythagoreanTriplets 56 to 95") {
     // pending
     PythagoreanTriplet.pythagoreanTriplets(56, 95) should be (Seq((57, 76, 95), (60, 63, 87)))
+  }
+
+  test("pythagoreanTripletsSum N=180") {
+    // pending
+    PythagoreanTriplet.pythagoreanTripletsSum(180) should be (Seq((18, 80, 82), (30, 72, 78), (45, 60, 75)))
+  }
+
+  test("pythagoreanTripletsSum N=1000") {
+    // pending
+    PythagoreanTriplet.pythagoreanTripletsSum(1000) should be (Seq((200, 375, 425)))
+  }
+  
+  test("pythagoreanTripletsSum for a large number N=30000") {
+    // pending
+    PythagoreanTriplet.pythagoreanTripletsSum(30000) should be(Seq((1200, 14375, 14425), (1875, 14000, 14125), (5000, 12000, 13000), (6000, 11250, 12750), (7500, 10000, 12500)))
   }
 }
