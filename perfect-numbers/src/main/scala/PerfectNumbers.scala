@@ -3,12 +3,12 @@ object PerfectNumbers {
 
     def classify(number: Int): Either[String, NumberType] = {
         if (number <= 0) 
-            Left("Classification is only possible for natural numbers.")
+            Left ("Classification is only possible for natural numbers.")
         else aliquotSum(number) match {
-            case `number`        => Right(Perfect)
-            case a if a > number => Right(Abundant)
-            case d if d < number => Right(Deficient)    
-            case _               => Left("Other error")
+            case `number`        => Right (Perfect)
+            case n if n > number => Right (Abundant) 
+            case n if n < number => Right (Deficient)    
+            case _               => Left  ("Other error")
         }
     }
 
