@@ -39,3 +39,50 @@
 [info] Tests: succeeded 31, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 4 s, completed 27 ╔ΎΫΊ 2019 7:04:21 ΉΉ
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
+[info] loading project definition from ~\exercism\scala\complex-numbers\project
+[info] loading settings for project complex-numbers from build.sbt ...
+[info] set current project to complex-numbers (in build file:/~/exercism/scala/complex-numbers/)
+[info] ComplexNumberTest:
+[info] - Real part of a purely real number
+[info] - Real part of a purely imaginary number
+[info] - Real part of a number with real and imaginary part
+[info] - Imaginary part of a purely real number
+[info] - Imaginary part of a purely imaginary number
+[info] - Imaginary part of a number with real and imaginary part
+[info] - Imaginary unit
+[info] - Add purely real numbers
+[info] - Add purely imaginary numbers
+[info] - Add numbers with real and imaginary part
+[info] - Subtract purely real numbers
+[info] - Subtract purely imaginary numbers
+[info] - Subtract numbers with real and imaginary part
+[info] - Multiply purely real numbers
+[info] - Multiply purely imaginary numbers
+[info] - Multiply numbers with real and imaginary part
+[info] - Divide purely real numbers
+[info] - Divide purely imaginary numbers
+[info] - Divide numbers with real and imaginary part
+[info] - Absolute value of a positive purely real number
+[info] - Absolute value of a negative purely real number
+[info] - Absolute value of a purely imaginary number with positive imaginary part
+[info] - Absolute value of a purely imaginary number with negative imaginary part
+[info] - Absolute value of a number with real and imaginary part
+[info] - Conjugate a purely real number
+[info] - Conjugate a purely imaginary number
+[info] - Conjugate a number with real and imaginary part
+[info] - Euler's identity/formula
+[info] - Exponential of 0
+[info] - Exponential of a purely real number
+[info] - Exponential of a number with real and imaginary part
+[info] Run completed in 1 second, 21 milliseconds.
+[info] Total number of tests run: 31
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 31, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 4 s, completed 13 Oct. 2022 9:19:10 P.M.
