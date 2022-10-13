@@ -52,9 +52,9 @@
 >sbt test
 
 [info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_301)
-[info] loading project definition from C:\Users\Chris\exercism\scala\word-count\project
+[info] loading project definition from ~\exercism\scala\word-count\project
 [info] loading settings for project word-count from build.sbt ...
-[info] set current project to word-count (in build file:/C:/Users/Chris/exercism/scala/word-count/)
+[info] set current project to word-count (in build file:/~/exercism/scala/word-count/)
 [info] WordCountTest:
 [info] - count one word
 [info] - count one of each word
@@ -72,4 +72,4 @@
 [info] Suites: completed 1, aborted 0
 [info] Tests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
-[success] Total time: 5 s, completed 13 ╬θ╬║╧Ε 2022 9:38:22 ╬╝╬╝
+[success] Total time: 5 s, completed 13 Oct. 2022 9:38:22 P.M.
