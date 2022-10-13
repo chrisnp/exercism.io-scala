@@ -1,1 +1,9 @@
-{"track":"scala","exercise":"word-count","id":"9d3aa616a12c4e5e9ed95875c3f8e4ad","url":"https://exercism.org/tracks/scala/exercises/word-count","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "scala",
+    "exercise": "word-count",
+    "id": "9d3aa616a12c4e5e9ed95875c3f8e4ad",
+    "url": "https://exercism.org/tracks/scala/exercises/word-count/solutions/9d3aa616a12c4e5e9ed95875c3f8e4ad",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
