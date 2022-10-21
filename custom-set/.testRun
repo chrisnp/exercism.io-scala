@@ -109,9 +109,9 @@
 >sbt test
 
 [info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
-[info] loading project definition from C:\Users\Chris\exercism\scala\custom-set\project
+[info] loading project definition from ~\exercism\scala\custom-set\project
 [info] loading settings for project custom-set from build.sbt ...
-[info] set current project to custom-set (in build file:/C:/Users/Chris/exercism/scala/custom-set/)
+[info] set current project to custom-set (in build file:/~/exercism/scala/custom-set/)
 [info] CustomSetTest:
 [info] - sets with no elements are empty
 [info] - sets with elements are not empty
