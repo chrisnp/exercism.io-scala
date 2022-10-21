@@ -19,23 +19,6 @@
 [error] Total time: 4 s, completed 14 ╧ΆΪ 2019 11:57:56 ΉΉ
 
 
-[info] Loading project definition from ~\exercism\scala\nth-prime\project
-[info] Loading settings for project nth-prime from build.sbt ...
-[info] Set current project to nth-prime (in build file:/~/exercism/scala/nth-prime/)
-[info] NthPrimeTest:
-[info] - first prime
-[info] - second prime
-[info] - sixth prime
-[info] - big prime
-[info] - there is no zeroth prime
-[info] Run completed in 1 second, 445 milliseconds.
-[info] Total number of tests run: 5
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[success] Total time: 14 s, completed 15 ╧ΆΪ 2019 12:05:36 ΏΉ
-
-
 
 [info] Loading project definition from ~\exercism\scala\nth-prime\project
 [info] Loading settings for project nth-prime from build.sbt ...
@@ -58,9 +41,9 @@
 >sbt test
 
 [info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
-[info] loading project definition from C:\Users\Chris\exercism\scala\nth-prime\project
+[info] loading project definition from ~\exercism\scala\nth-prime\project
 [info] loading settings for project nth-prime from build.sbt ...
-[info] set current project to nth-prime (in build file:/C:/Users/Chris/exercism/scala/nth-prime/)
+[info] set current project to nth-prime (in build file:/~/exercism/scala/nth-prime/)
 [info] NthPrimeTest:
 [info] - first prime
 [info] - second prime
@@ -73,3 +56,24 @@
 [info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 16 Sept 2022, 11:46:08 P.M.
+
+
+
+>sbt test
+
+[info] welcome to sbt 1.5.0 (Oracle Corporation Java 14.0.1)
+[info] loading project definition from ~\exercism\scala\nth-prime\project
+[info] loading settings for project nth-prime from build.sbt ...
+[info] set current project to nth-prime (in build file:/~/exercism/scala/nth-prime/)
+[info] NthPrimeTest:
+[info] - first prime
+[info] - second prime
+[info] - sixth prime
+[info] - big prime
+[info] - there is no zeroth prime
+[info] Run completed in 761 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 21 Oct. 2022, 11:40:30 P.M.

@@ -1,6 +1,6 @@
 object NthPrime {
     import scala.language.postfixOps
-
+    
     private def isPrime(n : Int) :  Boolean =
         (2 to Math.sqrt(n).toInt) forall (n % _ != 0) 
     
