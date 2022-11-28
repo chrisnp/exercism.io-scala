@@ -8,5 +8,6 @@ object NthPrime {
         2 #:: (Stream.from(3, 2) filter isPrime)
 
     def prime(n : Int) : Option[Int] = 
-        if (n < 1) None else Some (primes take(n) last)
+        if (n < 1) None 
+        else Some (primes take(n) last)
 }
