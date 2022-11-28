@@ -11,8 +11,7 @@ object ProteinTranslation {
             case "UGU" | "UGC" => "Cysteine"
             case "UGG" => "Tryptophan"
             case "UAA" | "UAG" | "UGA" => "STOP"
-            case _ => 
-                throw new IllegalArgumentException("Unknown codon")
+            case _ => throw new IllegalArgumentException("Unknown codon")
         }
 
     def proteins(strand: String): Seq[String] = 
