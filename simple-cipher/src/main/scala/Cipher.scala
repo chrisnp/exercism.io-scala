@@ -19,8 +19,7 @@ case class Cipher (keyOpt: Option[String]) {
     private def shift(text: String, f: (Int, Int) => Int): String =
         text.zip(key map(_ - 'a'))
             .map {
-                case (c, offset) => 
-                      ((f(c, offset) - 'a') % 26 + 'a') toChar
+                case (c, offset) => ((f(c, offset) - 'a') % 26 + 'a') toChar
             }
             .mkString
 }

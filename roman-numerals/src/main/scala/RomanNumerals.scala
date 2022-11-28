@@ -2,6 +2,7 @@ object RomanNumerals {
   def roman(number: Int): String = {
     var arabic = number;
     val roman = new StringBuffer()
+    
     while (arabic > 0) {
       arabic match {
         case a if a >= 1000 => 

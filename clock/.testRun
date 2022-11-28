@@ -118,12 +118,12 @@
 [info] - clocks with negative minute that wraps multiple times
 [info] - clocks with negative hours and minutes
 [info] - clocks with negative hours and minutes that wrap
-[info] Run completed in 1 second, 34 milliseconds.
+[info] Run completed in 1 second, 199 milliseconds.
 [info] Total number of tests run: 50
 [info] Suites: completed 1, aborted 0
 [info] Tests: succeeded 50, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
-[success] Total time: 5 s, completed 29 June 2022, 7:47:17 PM.
+[success] Total time: 3 s, completed 18 July 2022, 9:52:10 P.M.
 
 
 
@@ -184,9 +184,9 @@
 [info] - clocks with negative minute that wraps multiple times
 [info] - clocks with negative hours and minutes
 [info] - clocks with negative hours and minutes that wrap
-[info] Run completed in 1 second, 199 milliseconds.
+[info] Run completed in 871 milliseconds.
 [info] Total number of tests run: 50
 [info] Suites: completed 1, aborted 0
 [info] Tests: succeeded 50, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
-[success] Total time: 3 s, completed 18 July 2022, 9:52:10 P.M.
+[success] Total time: 3 s, completed Nov 28, 2022, 3:28:20 PM
