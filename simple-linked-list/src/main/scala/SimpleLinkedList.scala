@@ -1,5 +1,4 @@
 import scala.language.postfixOps
-
 trait SimpleLinkedList[T] {
     def isEmpty: Boolean
     def value: T
