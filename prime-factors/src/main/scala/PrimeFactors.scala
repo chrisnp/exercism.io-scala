@@ -1,6 +1,6 @@
 object PrimeFactors {
 
-    def sieve(num: Long, factor: Long): Seq[Long] = {
+    private def sieve(num: Long, factor: Long): Seq[Long] = {
         num % factor match {
             case _ if (num <= 1) => Seq()
             case _ if (factor * factor > num) => Seq(num) 
