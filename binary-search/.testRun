@@ -33,9 +33,9 @@
 >sbt test
 
 [info] welcome to sbt 1.9.1 (Oracle Corporation Java 14.0.2)
-[info] loading project definition from C:\Users\Chris\exercism\scala\binary-search\project
+[info] loading project definition from ~\exercism\scala\binary-search\project
 [info] loading settings for project binary-search from build.sbt ...
-[info] set current project to binary-search (in build file:/C:/Users/Chris/exercism/scala/binary-search/)
+[info] set current project to binary-search (in build file:/~/exercism/scala/binary-search/)
 [info] BinarySearchTest:
 [info] - finds a value in an array with one element
 [info] - finds a value in the middle of an array

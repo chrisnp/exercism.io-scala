@@ -10,8 +10,7 @@ object Queen {
 }
 
 object QueenAttack {
-    def canAttack(white: Queen, black: Queen): Boolean = 
-    {
+    def canAttack(white: Queen, black: Queen): Boolean = {
         val deltaRank = Math.abs(white.rank - black.rank)
         val deltaFile = Math.abs(white.file - black.file)
 
