@@ -1,12 +1,17 @@
 /.vscode/
 .ionide/
+.scala-build/
+.lsp/
+.metals/
+.clj-kondo/
+.bsp/
 /*/project/
 /*/target/
 /*/null/
 /*/.bsp/
 HELP.md
 # .bsp/*
-.bsp/
+/**/.bsp/
 sbt.json
 /project/*
 /target/*
