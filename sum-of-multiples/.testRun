@@ -21,3 +21,37 @@
 [info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 4 s, completed 27 ╓ίέ 2019 11:48:55 ΉΉ
+
+
+
+>sbt test
+
+[info] Updated file ~\exercism\scala\sum-of-multiples\project\build.properties: set sbt.version to 1.9.1
+[info] welcome to sbt 1.9.1 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\sum-of-multiples\project
+[info] loading settings for project sum-of-multiples from build.sbt ...
+[info] set current project to sum-of-multiples (in build file:/~/exercism/scala/sum-of-multiples/)
+[info] compiling 1 Scala source to ~\exercism\scala\sum-of-multiples\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to ~\exercism\scala\sum-of-multiples\target\scala-2.13\test-classes ...
+[info] done compiling
+[info] SumOfMultiplesTest:
+[info] - multiples of 3 or 5 up to 1
+[info] - multiples of 3 or 5 up to 4
+[info] - multiples of 3 up to 7
+[info] - multiples of 3 or 5 up to 10
+[info] - multiples of 3 or 5 up to 100
+[info] - multiples of 3 or 5 up to 1000
+[info] - multiples of 7, 13 or 17 up to 20
+[info] - multiples of 4 or 6 up to 15
+[info] - multiples of 5, 6 or 8 up to 150
+[info] - multiples of 5 or 25 up to 51
+[info] - multiples of 43 or 47 up to 10000
+[info] - multiples of 1 up to 100
+[info] - multiples of an empty list up to 10000
+[info] Run completed in 845 milliseconds.
+[info] Total number of tests run: 13
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 8 s, completed 04-Aug-2023 18:59:15
