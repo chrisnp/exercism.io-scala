@@ -69,9 +69,9 @@
 >sbt test
 
 [info] welcome to sbt 1.9.1 (Oracle Corporation Java 1.8.0_371)
-[info] loading project definition from C:\Users\Chris\exercism\scala\armstrong-numbers\project
+[info] loading project definition from ~\exercism\scala\armstrong-numbers\project
 [info] loading settings for project armstrong-numbers from build.sbt ...
-[info] set current project to armstrong-numbers (in build file:/C:/Users/Chris/exercism/scala/armstrong-numbers/)
+[info] set current project to armstrong-numbers (in build file:/~/exercism/scala/armstrong-numbers/)
 [info] ArmstrongNumbersTest:
 [info] - Single digit numbers are Armstrong numbers
 [info] - There are no 2 digit Armstrong numbers
