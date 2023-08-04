@@ -4,9 +4,9 @@ case class ComplexNumber(real:Double = 0.0, imaginary:Double = 0.0) {
     lazy val abs: Double = sqrt(real * real + imaginary * imaginary)
     lazy val conjugate:ComplexNumber = ComplexNumber(real, -imaginary)
     def + (z: ComplexNumber): ComplexNumber = 
-                ComplexNumber(real + z.real, imaginary + z.imaginary)
+            ComplexNumber(real + z.real, imaginary + z.imaginary)
     def - (z: ComplexNumber): ComplexNumber = 
-                ComplexNumber(real - z.real, imaginary - z.imaginary)
+            ComplexNumber(real - z.real, imaginary - z.imaginary)
     def * (z: ComplexNumber): ComplexNumber =
             ComplexNumber(real * z.real - imaginary * z.imaginary, 
                           imaginary * z.real + real * z.imaginary)

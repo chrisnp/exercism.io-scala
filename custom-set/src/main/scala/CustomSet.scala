@@ -11,27 +11,28 @@ object CustomSet {
     
     def singleton[T](set: CustomSet[T]): Boolean = set.elements.size == 1
     
-    def member[T](set: CustomSet[T], item: T): Boolean = set.elements contains item
+    def member[T](set: CustomSet[T], item: T): Boolean = 
+            set.elements contains item
     
-    def isEqual[T](set1: CustomSet[T], set2: CustomSet[T]): Boolean = 
-            CustomSet.isSubsetOf(set1, set2) && CustomSet.isSubsetOf(set2, set1)
+    def isEqual[T](s1: CustomSet[T], s2: CustomSet[T]): Boolean = 
+            CustomSet.isSubsetOf(s1, s2) && CustomSet.isSubsetOf(s2, s1)
     
-    def isSubsetOf[T](set1: CustomSet[T], set2: CustomSet[T]): Boolean = 
-            set1.elements.forall(CustomSet.member(set2, _))
+    def isSubsetOf[T](s1: CustomSet[T], s2: CustomSet[T]): Boolean = 
+            s1.elements.forall(CustomSet.member(s2, _))
     
-    def isDisjointFrom[T](set1: CustomSet[T], set2: CustomSet[T]): Boolean = 
-            !set1.elements.exists(CustomSet.member(set2, _))
+    def isDisjointFrom[T](s1: CustomSet[T], s2: CustomSet[T]): Boolean = 
+            !s1.elements.exists(CustomSet.member(s2, _))
     
     def insert[T](set: CustomSet[T], item: T): CustomSet[T] = 
-        new CustomSet(set.elements :+ item)
+            new CustomSet(set.elements :+ item)
     
-    def intersection[T](set1: CustomSet[T], set2: CustomSet[T]): CustomSet[T] = 
-        new CustomSet(set1.elements.filter(CustomSet.member(set2, _)))
+    def intersection[T](s1: CustomSet[T], s2: CustomSet[T]): CustomSet[T] = 
+            new CustomSet(s1.elements.filter(CustomSet.member(s2, _)))
     
-    def difference[T](set1: CustomSet[T], set2: CustomSet[T]): CustomSet[T] = 
-        new CustomSet(set1.elements.filter(!CustomSet.member(set2, _)))
+    def difference[T](s1: CustomSet[T], s2: CustomSet[T]): CustomSet[T] = 
+        new CustomSet(s1.elements.filter(!CustomSet.member(s2, _)))
     
-    def union[T](set1: CustomSet[T], set2: CustomSet[T]): CustomSet[T] = {
-        new CustomSet(set1.elements :++ set2.elements)
+    def union[T](s1: CustomSet[T], s2: CustomSet[T]): CustomSet[T] = {
+        new CustomSet(s1.elements :++ s2.elements)
     }
 }   

@@ -32,13 +32,11 @@ object BeerSong {
     }
 
     private def verse(bottles: Int): String = {
-        firstLine(bottles) + "\n" + 
-        secondLine(bottles) + "\n"
+        firstLine(bottles) + "\n" + secondLine(bottles) + "\n"
     }
 
     def recite(beersUp:Int, beersDown:Int): String = {
         (beersUp until (beersUp - beersDown) by -1)
-        .map(bottles => 
-            verse(bottles)).mkString("\n")
+        .map(bottles => verse(bottles)).mkString("\n")
     }
  }

@@ -116,9 +116,9 @@
 >sbt test
 
 [info] welcome to sbt 1.9.1 (Oracle Corporation Java 14.0.2)
-[info] loading project definition from C:\Users\Chris\exercism\scala\simple-linked-list\project
+[info] loading project definition from ~\exercism\scala\simple-linked-list\project
 [info] loading settings for project simple-linked-list from build.sbt ...
-[info] set current project to simple-linked-list (in build file:/C:/Users/Chris/exercism/scala/simple-linked-list/)
+[info] set current project to simple-linked-list (in build file:/~/exercism/scala/simple-linked-list/)
 [info] SimpleLinkedListTest:
 [info] - should handle single item list
 [info] - should handle single item has no next item

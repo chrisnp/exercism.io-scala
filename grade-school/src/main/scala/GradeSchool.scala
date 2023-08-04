@@ -10,16 +10,13 @@ class School {
 
   def db: DB = school
 
-  def grade(g: Int): Seq[String] = 
-              school.getOrElse(g, Nil)
+  def grade(g: Int): Seq[String] = school.getOrElse(g, Nil)
 
   def sorted: DB = {
       val studentsInGrade = school.map {
-                    case (grade, names) => 
-                         (grade, names.sorted)   
+            case (grade, names) => (grade, names.sorted)   
       }
-      Map(studentsInGrade.toSeq
-                         .sortBy(_._1): _*)
+      Map(studentsInGrade.toSeq.sortBy(_._1): _*)
   }
 }
 

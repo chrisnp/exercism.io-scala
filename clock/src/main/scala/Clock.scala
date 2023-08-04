@@ -17,7 +17,8 @@ object Clock {
             that match {
                 case that:Clock => 
                     that.isInstanceOf[Clock] && 
-                    that.hours == this.hours && that.minutes == this.minutes
+                    that.hours == this.hours && 
+                    that.minutes == this.minutes
                 case _ => 
                     false
             }
