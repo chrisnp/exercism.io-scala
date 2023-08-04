@@ -1,1 +1,9 @@
-{"track":"scala","exercise":"sum-of-multiples","id":"139df54dd12947b98dc155042d3b29ba","url":"https://exercism.org/tracks/scala/exercises/sum-of-multiples","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "scala",
+    "exercise": "sum-of-multiples",
+    "id": "139df54dd12947b98dc155042d3b29ba",
+    "url": "https://exercism.org/tracks/scala/exercises/sum-of-multiples/solutions/139df54dd12947b98dc155042d3b29ba",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
