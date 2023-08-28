@@ -1,15 +1,13 @@
 import scala.math.Ordering.Implicits._
 
-case class Bst[T: Ordering](value: T, 
-                            left:  Option[Bst[T]] = None, 
-                            right: Option[Bst[T]] = None) {
+case class Bst[T: Ordering](value: T, left:  Option[Bst[T]] = None, 
+                                      right: Option[Bst[T]] = None) 
+{
     def insert(item: T): Bst[T] =
         if (item <= value) 
-            copy(left = left.map(_ insert item)
-                            .orElse(Some(Bst(item))))
+            copy(left = left map(_ insert item) orElse(Some(Bst(item))))
         else 
-            copy(right = right.map(_ insert item)
-                              .orElse(Some(Bst(item))))
+            copy(right = right map(_ insert item) orElse(Some(Bst(item))))
 }
 
 object Bst {
@@ -21,9 +19,9 @@ object Bst {
     }
 
     def toList[T: Ordering](bst: Bst[T]): List[T] = {
-        val leftBST  = bst.left.map(toList(_)).getOrElse(List()) 
+        val leftBST  = bst.left map{toList(_)} getOrElse(List()) 
         val value    = List(bst.value)
-        val rightBST = bst.right.map(toList(_)).getOrElse(List())
+        val rightBST = bst.right map{toList(_)} getOrElse(List())
         leftBST ::: value ::: rightBST
     }
 
