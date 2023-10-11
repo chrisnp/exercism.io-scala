@@ -1,4 +1,3 @@
-import scala.language.postfixOps
 trait SimpleLinkedList[T] {
     def isEmpty: Boolean
     def value: T
@@ -7,6 +6,7 @@ trait SimpleLinkedList[T] {
     def reverse: SimpleLinkedList[T]
     def toSeq: Seq[T]
 }
+import scala.language.postfixOps
 
 case class EmptyNode[T]() extends SimpleLinkedList[T] {
     override def isEmpty: Boolean = true
@@ -32,5 +32,7 @@ object SimpleLinkedList {
     def apply[T](): SimpleLinkedList[T] = EmptyNode()
     def apply[T](elems: T*): SimpleLinkedList[T] = fromSeq (elems)
     def fromSeq[T](list: Seq[T]): SimpleLinkedList[T] = 
-            list.foldLeft(SimpleLinkedList[T]()) {(sllist, elem) => sllist add(elem)}             
+            list.foldLeft(SimpleLinkedList[T]()) {
+                (sllist, elem) => sllist add(elem)
+            }             
 }
