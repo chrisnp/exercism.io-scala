@@ -15,5 +15,6 @@ HELP.md
 sbt.json
 /project/*
 /target/*
+/null/
 cleanup.*
 .fake
