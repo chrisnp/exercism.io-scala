@@ -17,4 +17,5 @@ sbt.json
 /target/*
 /null/
 cleanup.*
+prepareTests.ps1
 .fake
