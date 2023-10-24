@@ -1,52 +1,3 @@
-[info] Loading project definition from ~\scala\palindrome-products\project
-[info] Loading settings for project palindrome-products from build.sbt ...
-[info] Set current project to palindrome-products (in build file:/~/scala/palindrome-products/)
-[info] PalindromeProductsTest:
-[info] - finds the smallest palindrome from single digit factors
-[info] - finds the largest palindrome from single digit factors
-[info] - find the smallest palindrome from double digit factors
-[info] - find the largest palindrome from double digit factors
-[info] - find smallest palindrome from triple digit factors
-[info] - find the largest palindrome from triple digit factors
-[info] - find smallest palindrome from four digit factors
-[info] - find the largest palindrome from four digit factors
-[info] - empty result for smallest if no palindrome in the range
-[info] - empty result for largest if no palindrome in the range
-[info] - error result for smallest if min is more than max
-[info] - error result for largest if min is more than max
-[info] Run completed in 3 seconds, 702 milliseconds.
-[info] Total number of tests run: 12
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[success] Total time: 7 s, completed 14 ┴Ώ± 2019 11:12:54 ΉΉ
-
-
-[info] Loading project definition from ~\exercism\scala\palindrome-products\project
-[info] Loading settings for project palindrome-products from build.sbt ...
-[info] Set current project to palindrome-products (in build file:/~/exercism/scala/palindrome-products/)
-[info] PalindromeProductsTest:
-[info] - finds the smallest palindrome from single digit factors
-[info] - finds the largest palindrome from single digit factors
-[info] - find the smallest palindrome from double digit factors
-[info] - find the largest palindrome from double digit factors
-[info] - find smallest palindrome from triple digit factors
-[info] - find the largest palindrome from triple digit factors
-[info] - find smallest palindrome from four digit factors
-[info] - find the largest palindrome from four digit factors
-[info] - empty result for smallest if no palindrome in the range
-[info] - empty result for largest if no palindrome in the range
-[info] - error result for smallest if min is more than max
-[info] - error result for largest if min is more than max
-[info] Run completed in 4 seconds, 51 milliseconds.
-[info] Total number of tests run: 12
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[success] Total time: 12 s, completed 15 ┴Ώ± 2019 1:09:56 ΏΉ
-
-
-
 >sbt test
 
 [info] Loading project definition from ~\exercism\scala\palindrome-products\project
@@ -99,3 +50,33 @@
 [info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 5 s, completed 17 ╬Φ╬╡╬║ 2020, 9:25:37 ╬╝.╬╝.
+
+
+
+-------------------------------------------------
+Tue Oct 24 14:42:09 GTBDT 2023
+-------------------------------------------------
+>sbt test
+[info] welcome to sbt 1.9.1 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\palindrome-products\project
+[info] loading settings for project palindrome-products from build.sbt ...
+[info] set current project to palindrome-products (in build file:/~/exercism/scala/palindrome-products/)
+[info] PalindromeProductsTest:
+[info] - finds the smallest palindrome from single digit factors
+[info] - finds the largest palindrome from single digit factors
+[info] - find the smallest palindrome from double digit factors
+[info] - find the largest palindrome from double digit factors
+[info] - find smallest palindrome from triple digit factors
+[info] - find the largest palindrome from triple digit factors
+[info] - find smallest palindrome from four digit factors
+[info] - find the largest palindrome from four digit factors
+[info] - empty result for smallest if no palindrome in the range
+[info] - empty result for largest if no palindrome in the range
+[info] - error result for smallest if min is more than max
+[info] - error result for largest if min is more than max
+[info] Run completed in 1 second, 168 milliseconds.
+[info] Total number of tests run: 12
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 24-Oct-2023 14:42:57
