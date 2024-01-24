@@ -5,6 +5,7 @@
 .metals/
 .clj-kondo/
 .bsp/
+null/
 /*/project/
 /*/target/
 /*/null/
