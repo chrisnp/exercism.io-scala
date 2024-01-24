@@ -1,0 +1,23 @@
+-------------------------------------------------
+Wed Jan 24 22:08:01 GTBST 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.1 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\crypto-square\project
+[info] loading settings for project crypto-square from build.sbt ...
+[info] set current project to crypto-square (in build file:/~/exercism/scala/crypto-square/)
+[info] CryptoSquareTest:
+[info] - empty plaintext results in an empty ciphertext
+[info] - Lowercase
+[info] - Remove spaces
+[info] - Remove punctuation
+[info] - 9 character plaintext results in 3 chunks of 3 characters
+[info] - 8 character plaintext results in 3 chunks, the last one with a trailing space
+[info] - 54 character plaintext results in 7 chunks, the last two with trailing spaces
+[info] Run completed in 619 milliseconds.
+[info] Total number of tests run: 7
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 2 s, completed 24-Jan-2024 22:08:08
