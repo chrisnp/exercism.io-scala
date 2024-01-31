@@ -1,10 +1,7 @@
 object Clock {
 
     case class Clock( h:Int, m:Int ) {
-
-        private def mod(x:Double, d:Double) = 
-            (((x % d) + d) % d).toInt 
-
+        private def mod(x:Double, d:Double) = (((x % d) + d) % d).toInt
         private lazy val hours = mod((h * 60 + m) / 60.0 , 24)
         private lazy val minutes = mod(m, 60)
 
@@ -12,7 +9,6 @@ object Clock {
             new Clock(hours + other.hours, minutes + other.minutes)
         def - (other:Clock):Clock = 
             new Clock(hours - other.hours, minutes - other.minutes)
-  
         override def equals(that:Any):Boolean = {
             that match {
                 case that:Clock => 
