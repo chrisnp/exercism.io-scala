@@ -80,3 +80,34 @@ Tue Oct 24 14:42:09 GTBDT 2023
 [info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 24-Oct-2023 14:42:57
+
+
+
+-------------------------------------------------
+Wed Jan 31 22:59:09 GTBST 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
+[info] loading project definition from ~\exercism\scala\palindrome-products\project
+[info] loading settings for project palindrome-products from build.sbt ...
+[info] set current project to palindrome-products (in build file:/~/exercism/scala/palindrome-products/)
+[info] PalindromeProductsTest:
+[info] - finds the smallest palindrome from single digit factors
+[info] - finds the largest palindrome from single digit factors
+[info] - find the smallest palindrome from double digit factors
+[info] - find the largest palindrome from double digit factors
+[info] - find smallest palindrome from triple digit factors
+[info] - find the largest palindrome from triple digit factors
+[info] - find smallest palindrome from four digit factors
+[info] - find the largest palindrome from four digit factors
+[info] - empty result for smallest if no palindrome in the range
+[info] - empty result for largest if no palindrome in the range
+[info] - error result for smallest if min is more than max
+[info] - error result for largest if min is more than max
+[info] Run completed in 1 second, 343 milliseconds.
+[info] Total number of tests run: 12
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 31 Jan 2024, 22:59:20
