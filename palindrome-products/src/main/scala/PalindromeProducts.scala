@@ -7,7 +7,7 @@ case class PalindromeProducts (min: Int, max: Int) {
 
     private def factorPairs (n: Int): Seq[(Int, Int)] = 
         for {
-            x <- min.max(1) to max.min(Math.sqrt(n).floor.toInt)
+            x <- min.max(1) to max.min (Math.sqrt(n).floor.toInt)
             if n % x == 0
             if min <= n / x && n / x <= max
         } yield (x, n / x)
@@ -20,16 +20,15 @@ case class PalindromeProducts (min: Int, max: Int) {
         } yield (x, factorPairs(x).toSet)
 
     lazy val smallest: Option[(Int, Set[(Int,Int)])] = 
-        Try(palindromes(
-                Stream.range(Math.pow(min, 2).toInt, 
-                             Math.pow(max, 2).toInt)
+        Try (palindromes (
+            Stream.range(Math.pow(min, 2).toInt, Math.pow(max, 2).toInt)
             ).head
         ).toOption
 
     lazy val largest: Option[(Int, Set[(Int,Int)])] = 
-        Try(palindromes(
-                Stream.range(Math.pow(max, 2).toInt, 
-                             Math.pow(min, 2).toInt, -1)
+        Try ( 
+            palindromes (
+            Stream.range(Math.pow(max, 2).toInt, Math.pow(min, 2).toInt, -1)
             ).head
         ).toOption
 }
