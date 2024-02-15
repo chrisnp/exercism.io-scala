@@ -1,0 +1,22 @@
+-------------------------------------------------
+Fri Feb 16 00:43:56 GTBST 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
+[info] loading project definition from ~\exercism\scala\reverse-string\project
+[info] loading settings for project reverse-string from build.sbt ...
+[info] set current project to reverse-string (in build file:/~/exercism/scala/reverse-string/)
+[info] ReverseStringTest:
+[info] - an empty string
+[info] - a word
+[info] - a capitalized word
+[info] - a sentence with punctuation
+[info] - a palindrome
+[info] - an even-sized word
+[info] Run completed in 448 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 2 s, completed 16 Feb 2024, 00:44:04
