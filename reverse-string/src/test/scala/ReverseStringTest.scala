@@ -9,27 +9,27 @@ class ReverseStringTest extends AnyFunSuite with Matchers {
   }
 
   test("a word") {
-    pending
+    // pending
     ReverseString.reverse("robot") should be ("tobor")
   }
 
   test("a capitalized word") {
-    pending
+    // pending
     ReverseString.reverse("Ramen") should be ("nemaR")
   }
 
   test("a sentence with punctuation") {
-    pending
+    // pending
     ReverseString.reverse("I'm hungry!") should be ("!yrgnuh m'I")
   }
 
   test("a palindrome") {
-    pending
+    // pending
     ReverseString.reverse("racecar") should be ("racecar")
   }
 
   test("an even-sized word") {
-    pending
+    // pending
     ReverseString.reverse("drawer") should be ("reward")
   }
 }
