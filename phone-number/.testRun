@@ -1,0 +1,30 @@
+-------------------------------------------------
+Tue Feb 27 18:10:04 GTBST 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
+[info] loading project definition from ~\exercism\scala\phone-number\project
+[info] loading settings for project phone-number from build.sbt ...
+[info] set current project to phone-number (in build file:/~/exercism/scala/phone-number/)
+[info] PhoneNumberTest:
+[info] - cleans the number
+[info] - cleans numbers with dots
+[info] - cleans numbers with multiple spaces
+[info] - invalid when 9 digits
+[info] - invalid when 11 digits does not start with a 1
+[info] - valid when 11 digits and starting with 1
+[info] - valid when 11 digits and starting with 1 even with punctuation
+[info] - invalid when more than 11 digits
+[info] - invalid with letters
+[info] - invalid with punctuations
+[info] - invalid if area code starts with 0
+[info] - invalid if area code starts with 1
+[info] - invalid if exchange code starts with 0
+[info] - invalid if exchange code starts with 1
+[info] Run completed in 436 milliseconds.
+[info] Total number of tests run: 14
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 2 s, completed 27 Feb 2024, 18:10:12
