@@ -29,9 +29,9 @@ Tue Feb 27 18:14:05 GTBST 2024
 >sbt test
 
 [info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
-[info] loading project definition from C:\Users\Chris\exercism\scala\reverse-string\project
+[info] loading project definition from ~\exercism\scala\reverse-string\project
 [info] loading settings for project reverse-string from build.sbt ...
-[info] set current project to reverse-string (in build file:/C:/Users/Chris/exercism/scala/reverse-string/)
+[info] set current project to reverse-string (in build file:/~/exercism/scala/reverse-string/)
 [info] ReverseStringTest:
 [info] - an empty string
 [info] - a word
