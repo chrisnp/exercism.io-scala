@@ -1,13 +1,12 @@
 object PhoneNumber {
     def clean(number: String): Option[String] = {
         val digits = number.filter(_.isDigit).toList
-        val areaCodeOk = digits.head.asDigit > 1
-        val exchCodeOk = digits(3).asDigit > 1
+        val codesOk = digits(0).asDigit > 1 && digits(3).asDigit > 1
         digits match {
             case '1' :: rest if digits.size == 11 => 
                 clean(rest.mkString)
-            case digs if digs.size == 10 && areaCodeOk && exchCodeOk => 
-                Some(digs.mkString)
+            case ds if ds.size == 10 && codesOk => 
+                Some(ds.mkString)
             case _ => 
                 None
         }
