@@ -1,0 +1,25 @@
+-------------------------------------------------
+Fri Apr 26 18:19:01 GTBDT 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
+[info] loading project definition from ~\exercism\scala\pascals-triangle\project
+[info] loading settings for project pascals-triangle from build.sbt ...
+[info] set current project to pascals-triangle (in build file:/~/exercism/scala/pascals-triangle/)
+[info] PascalsTriangleTest:
+[info] - zero rows
+[info] - single row
+[info] - two rows
+[info] - three rows
+[info] - four rows
+[info] - five rows
+[info] - six rows
+[info] - ten rows
+[info] - negative rows
+[info] Run completed in 424 milliseconds.
+[info] Total number of tests run: 9
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 2 s, completed 26 Apr 2024, 18:19:09
