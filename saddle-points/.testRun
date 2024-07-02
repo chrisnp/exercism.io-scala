@@ -1,0 +1,26 @@
+-------------------------------------------------
+Tue Jul  2 18:13:03 GTBDT 2024
+-------------------------------------------------
+>sbt test
+
+[info] Updated file C:\Users\Chris\exercism\scala\saddle-points\project\build.properties: set sbt.version to 1.9.8
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
+[info] loading project definition from C:\Users\Chris\exercism\scala\saddle-points\project
+[info] loading settings for project saddle-points from build.sbt ...
+[info] set current project to saddle-points (in build file:/C:/Users/Chris/exercism/scala/saddle-points/)
+[info] compiling 1 Scala source to C:\Users\Chris\exercism\scala\saddle-points\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 1 Scala source to C:\Users\Chris\exercism\scala\saddle-points\target\scala-2.13\test-classes ...
+[info] done compiling
+[info] SaddlePointsTest:
+[info] - Can identify single saddle point
+[info] - Can identify that empty matrix has no saddle points
+[info] - Can identify lack of saddle points when there are none
+[info] - Can identify multiple saddle points
+[info] - Can identify saddle point in bottom right corner
+[info] Run completed in 410 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 7 s, completed 2 Jul 2024, 18:13:20
