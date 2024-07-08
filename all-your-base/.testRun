@@ -1,0 +1,55 @@
+-------------------------------------------------
+Mon Jul  8 21:08:12 GTBDT 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
+[info] loading project definition from C:\Users\Chris\exercism\scala\all-your-base\project
+[info] loading settings for project all-your-base from build.sbt ...
+[info] set current project to all-your-base (in build file:/C:/Users/Chris/exercism/scala/all-your-base/)
+[info] AllYourBaseTest:
+[info] - single bit one to decimal
+[info] - binary to single decimal
+[info] - single decimal to binary
+[info] - binary to multiple decimal *** FAILED ***
+[info]   Some(List(2, 1)) was not equal to Some(List(4, 2)) (AllYourBaseTest.scala:24)
+[info]   Analysis:
+[info]   Some(value: List(0: 2 -> 4, 1: 1 -> 2))
+[info] - decimal to binary *** FAILED ***
+[info]   Some(List(1, 1, 0, 0, 0)) was not equal to Some(List(1, 0, 1, 0, 1, 0)) (AllYourBaseTest.scala:30)
+[info]   Analysis:
+[info]   Some(value: List(1: 1 -> 0, 2: 0 -> 1, 4: 0 -> 1, 5: -> 0))
+[info] - trinary to hexadecimal *** FAILED ***
+[info]   Some(List(1, 6)) was not equal to Some(List(2, 10)) (AllYourBaseTest.scala:36)
+[info]   Analysis:
+[info]   Some(value: List(0: 1 -> 2, 1: 6 -> 10))
+[info] - hexadecimal to trinary *** FAILED ***
+[info]   Some(List(2, 0, 0, 0, 0)) was not equal to Some(List(1, 1, 2, 0)) (AllYourBaseTest.scala:41)
+[info]   Analysis:
+[info]   Some(value: List(0: 2 -> 1, 1: 0 -> 1, 2: 0 -> 2, 4: 0 -> ))
+[info] - 15-bit integer *** FAILED ***
+[info]   Some(List(1, 33, 56, 43)) was not equal to Some(List(6, 10, 45)) (AllYourBaseTest.scala:46)
+[info]   Analysis:
+[info]   Some(value: List(0: 1 -> 6, 1: 33 -> 10, 2: 56 -> 45, 3: 43 -> ))
+[info] - empty list
+[info] - single zero
+[info] - multiple zeros
+[info] - leading zeros
+[info] - input base is one
+[info] - input base is zero
+[info] - input base is negative
+[info] - negative digit
+[info] - invalid positive digit
+[info] - output base is one
+[info] - output base is zero
+[info] - output base is negative
+[info] - both bases are negative
+[info] Run completed in 519 milliseconds.
+[info] Total number of tests run: 21
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 16, failed 5, canceled 0, ignored 0, pending 0
+[info] *** 5 TESTS FAILED ***
+[error] Failed tests:
+[error] 	AllYourBaseTest
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 2 s, completed 8 Jul 2024, 21:08:21
