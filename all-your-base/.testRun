@@ -4,9 +4,9 @@ Mon Jul  8 21:08:12 GTBDT 2024
 >sbt test
 
 [info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
-[info] loading project definition from C:\Users\Chris\exercism\scala\all-your-base\project
+[info] loading project definition from ~\exercism\scala\all-your-base\project
 [info] loading settings for project all-your-base from build.sbt ...
-[info] set current project to all-your-base (in build file:/C:/Users/Chris/exercism/scala/all-your-base/)
+[info] set current project to all-your-base (in build file:/~/exercism/scala/all-your-base/)
 [info] AllYourBaseTest:
 [info] - single bit one to decimal
 [info] - binary to single decimal
@@ -53,3 +53,43 @@ Mon Jul  8 21:08:12 GTBDT 2024
 [error] 	AllYourBaseTest
 [error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
 [error] Total time: 2 s, completed 8 Jul 2024, 21:08:21
+
+
+
+-------------------------------------------------
+Mon Jul  8 21:13:19 GTBDT 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
+[info] loading project definition from ~\exercism\scala\all-your-base\project
+[info] loading settings for project all-your-base from build.sbt ...
+[info] set current project to all-your-base (in build file:/~/exercism/scala/all-your-base/)
+[info] AllYourBaseTest:
+[info] - single bit one to decimal
+[info] - binary to single decimal
+[info] - single decimal to binary
+[info] - binary to multiple decimal
+[info] - decimal to binary
+[info] - trinary to hexadecimal
+[info] - hexadecimal to trinary
+[info] - 15-bit integer
+[info] - empty list
+[info] - single zero
+[info] - multiple zeros
+[info] - leading zeros
+[info] - input base is one
+[info] - input base is zero
+[info] - input base is negative
+[info] - negative digit
+[info] - invalid positive digit
+[info] - output base is one
+[info] - output base is zero
+[info] - output base is negative
+[info] - both bases are negative
+[info] Run completed in 505 milliseconds.
+[info] Total number of tests run: 21
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 21, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 2 s, completed 8 Jul 2024, 21:13:27
