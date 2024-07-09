@@ -3,14 +3,14 @@ Tue Jul  2 18:13:03 GTBDT 2024
 -------------------------------------------------
 >sbt test
 
-[info] Updated file C:\Users\Chris\exercism\scala\saddle-points\project\build.properties: set sbt.version to 1.9.8
+[info] Updated file ~\exercism\scala\saddle-points\project\build.properties: set sbt.version to 1.9.8
 [info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
-[info] loading project definition from C:\Users\Chris\exercism\scala\saddle-points\project
+[info] loading project definition from ~\exercism\scala\saddle-points\project
 [info] loading settings for project saddle-points from build.sbt ...
-[info] set current project to saddle-points (in build file:/C:/Users/Chris/exercism/scala/saddle-points/)
-[info] compiling 1 Scala source to C:\Users\Chris\exercism\scala\saddle-points\target\scala-2.13\classes ...
+[info] set current project to saddle-points (in build file:/~/exercism/scala/saddle-points/)
+[info] compiling 1 Scala source to ~\exercism\scala\saddle-points\target\scala-2.13\classes ...
 [info] done compiling
-[info] compiling 1 Scala source to C:\Users\Chris\exercism\scala\saddle-points\target\scala-2.13\test-classes ...
+[info] compiling 1 Scala source to ~\exercism\scala\saddle-points\target\scala-2.13\test-classes ...
 [info] done compiling
 [info] SaddlePointsTest:
 [info] - Can identify single saddle point
