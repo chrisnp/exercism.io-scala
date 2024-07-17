@@ -1,0 +1,21 @@
+-------------------------------------------------
+Wed Jul 17 14:42:23 GTBDT 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 20.0.1)
+[info] loading project definition from ~\exercism\scala\linked-list\project
+[info] loading settings for project linked-list from build.sbt ...
+[info] set current project to linked-list (in build file:/~/exercism/scala/linked-list/)
+[info] DequeTest:
+[info] - should handle push then pop
+[info] - should handle push then shift
+[info] - should handle unshift then shift
+[info] - should handle unshift then pop
+[info] - should handle complex interaction
+[info] Run completed in 434 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 2 s, completed 17 Jul 2024, 14:42:31
