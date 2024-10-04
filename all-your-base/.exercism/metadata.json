@@ -1,9 +1,1 @@
-{
-    "track": "scala",
-    "exercise": "all-your-base",
-    "id": "dae96552b0d84a8b8aa2e16a19bbae4d",
-    "url": "https://exercism.org/tracks/scala/exercises/all-your-base/solutions/dae96552b0d84a8b8aa2e16a19bbae4d",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
-}
+{"track":"scala","exercise":"all-your-base","id":"dae96552b0d84a8b8aa2e16a19bbae4d","url":"https://exercism.org/tracks/scala/exercises/all-your-base","handle":"heptalophos","is_requester":true,"auto_approve":false}
