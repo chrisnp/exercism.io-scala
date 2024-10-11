@@ -6,13 +6,13 @@ class Deque[T] {
         head.foreach(_.next = last)
         head = head.orElse(last)
     }
-    def pop(): Option[T] = {
+    def pop: Option[T] = {
         val node = last
         head = if (head != last) head else None
         last = node.flatMap(x => x.prev)
         node.map(x => x.value)
     }
-    def shift(): Option[T] = {
+    def shift: Option[T] = {
         val node = head
         last = if (last != head) last else None
         head = node.flatMap(x => x.next)
