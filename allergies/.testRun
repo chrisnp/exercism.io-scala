@@ -1,0 +1,38 @@
+-------------------------------------------------
+Mon Nov 25 21:46:57 GTBST 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.10.1 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\allergies\project
+[info] loading settings for project allergies from build.sbt ...
+[info] set current project to allergies (in build file:/~/exercism/scala/allergies/)
+[info] compiling 1 Scala source to ~\exercism\scala\allergies\target\scala-3.4.2\classes ...
+[info] done compiling
+[info] AllergiesTest:
+[info] - Allergen.Peanuts - no allergies means not allergic
+[info] - Allergen.Cats - no allergies means not allergic
+[info] - Allergen.Strawberries - no allergies means not allergic
+[info] - Allergen.Eggs - is allergic to eggs
+[info] - Allergen.Eggs - allergic to eggs in addition to other stuff
+[info] - Allergen.Shellfish - allergic to eggs in addition to other stuff
+[info] - Allergen.Strawberries - allergic to eggs in addition to other stuff
+[info] - Allergen.Eggs - allergic to strawberries but not peanuts
+[info] - Allergen.Peanuts - allergic to strawberries but not peanuts
+[info] - Allergen.Shellfish - allergic to strawberries but not peanuts
+[info] - Allergen.Strawberries - allergic to strawberries but not peanuts
+[info] - no allergies at all
+[info] - allergic to just eggs
+[info] - allergic to just peanuts
+[info] - allergic to just strawberries
+[info] - allergic to eggs and peanuts
+[info] - allergic to more than eggs but not peanuts
+[info] - allergic to lots of stuff
+[info] - allergic to everything
+[info] - ignore non allergen score parts
+[info] Run completed in 526 milliseconds.
+[info] Total number of tests run: 20
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 20, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 7 s, completed 25-Nov-2024 21:47:09
