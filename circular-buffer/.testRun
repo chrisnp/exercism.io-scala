@@ -1,0 +1,30 @@
+-------------------------------------------------
+Fri Nov 29 18:07:46 GTBST 2024
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\circular-buffer\project
+[info] loading settings for project circular-buffer from build.sbt ...
+[info] set current project to circular-buffer (in build file:/~/exercism/scala/circular-buffer/)
+[info] CircularBufferTest:
+[info] - Reading empty buffer should fail
+[info] - Can read an item just written
+[info] - Each item may only be read once
+[info] - Items are read in the order they are written
+[info] - Full buffer can't be written to
+[info] - A read frees up capacity for another write
+[info] - Read position is maintained even across multiple writes
+[info] - Items cleared out of buffer can't be read
+[info] - Clear frees up capacity for another write
+[info] - Clear does nothing on empty buffer
+[info] - Overwrite acts like write on non-full buffer
+[info] - Overwrite replaces the oldest item on full buffer
+[info] - Overwrite replaces the oldest item remaining in buffer following a read
+[info] - Initial clear does not affect wrapping around
+[info] Run completed in 547 milliseconds.
+[info] Total number of tests run: 14
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 29-Nov-2024 18:07:54
