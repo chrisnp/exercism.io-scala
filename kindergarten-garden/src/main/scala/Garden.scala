@@ -12,18 +12,17 @@ object Garden {
 
     def defaultGarden(garden: String): Garden =
         new Garden(garden.split("\n")
-                         .map(r => 
-                                r.toCharArray()
-                                 .map(p => 
-                                    plant.getOrElse(p, null)).toList))
+                         .map(r => r.toCharArray()
+                                    .map(p => plant.getOrElse(p, null))
+                                                   .toList))
 }
 
 class Garden(garden: Seq[List[Plant.Plant]]) {
     def plants(name: String): List[Plant.Plant] = {
         val idx = 2 * Garden.children.indexOf(name)
-        garden.foldLeft[List[Plant.Plant]] 
-                    (List.empty)((list, r) => 
-                        list ::: r.slice(idx, idx + 2))
+        garden.foldLeft[List[Plant.Plant]] (List.empty)
+                                           ((list, r) => 
+                                                list ::: r.slice(idx, idx + 2))
     }
 }
 
