@@ -4,8 +4,8 @@ object RunLengthEncoding {
             case None => ""
             case Some(letter) =>
                 val (ys, rest) = xs.span { _ == letter }
-                val cnt = if (ys.length > 1) ys.length.toString 
-                          else ""
+                val cnt = if (ys.length <= 1) ""
+                          else ys.length.toString
                 cnt + letter + encode(rest)
         }
 
