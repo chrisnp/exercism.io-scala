@@ -1,1 +1,9 @@
-{"track":"scala","exercise":"run-length-encoding","id":"bed4f205dc0847e48ee5e3286d2f6b57","url":"https://exercism.org/tracks/scala/exercises/run-length-encoding","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "scala",
+    "exercise": "run-length-encoding",
+    "id": "bed4f205dc0847e48ee5e3286d2f6b57",
+    "url": "https://exercism.org/tracks/scala/exercises/run-length-encoding/solutions/bed4f205dc0847e48ee5e3286d2f6b57",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
