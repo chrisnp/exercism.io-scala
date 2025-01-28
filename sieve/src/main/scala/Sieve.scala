@@ -2,7 +2,7 @@ object Sieve {
 
     private def sieve(num: Int): List[Int] = {
         
-        // a stream of multiples of the odds 
+        // a stream of multiples of the odd naturals
         // up to the sq. root of num
         val compositeOdds = 
             Stream.from(3, 2)
