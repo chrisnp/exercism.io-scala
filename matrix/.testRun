@@ -1,0 +1,24 @@
+-------------------------------------------------
+Fri Mar 14 17:56:44 GTBST 2025
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\matrix\project
+[info] loading settings for project matrix from build.sbt ...
+[info] set current project to matrix (in build file:/~/exercism/scala/matrix/)
+[info] MatrixTest:
+[info] - extract row from one number matrix
+[info] - can extract row
+[info] - extract row where numbers have different widths
+[info] - can extract row from non-square matrix
+[info] - extract column from one number matrix
+[info] - can extract column
+[info] - can extract column from non-square matrix
+[info] - extract column where numbers have different widths
+[info] Run completed in 639 milliseconds.
+[info] Total number of tests run: 8
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 14-Mar-2025 17:56:55
