@@ -138,3 +138,43 @@ Fri Oct  4 16:12:20 GTBDT 2024
 [info] Tests: succeeded 21, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 11 s, completed 4 Oct 2024, 16:12:41
+
+
+
+-------------------------------------------------
+Fri Mar 14 19:35:11 GTBST 2025
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\all-your-base\project
+[info] loading settings for project all-your-base from build.sbt ...
+[info] set current project to all-your-base (in build file:/~/exercism/scala/all-your-base/)
+[info] AllYourBaseTest:
+[info] - single bit one to decimal
+[info] - binary to single decimal
+[info] - single decimal to binary
+[info] - binary to multiple decimal
+[info] - decimal to binary
+[info] - trinary to hexadecimal
+[info] - hexadecimal to trinary
+[info] - 15-bit integer
+[info] - empty list
+[info] - single zero
+[info] - multiple zeros
+[info] - leading zeros
+[info] - input base is one
+[info] - input base is zero
+[info] - input base is negative
+[info] - negative digit
+[info] - invalid positive digit
+[info] - output base is one
+[info] - output base is zero
+[info] - output base is negative
+[info] - both bases are negative
+[info] Run completed in 626 milliseconds.
+[info] Total number of tests run: 21
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 21, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 14-Mar-2025 19:35:21
