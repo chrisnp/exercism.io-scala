@@ -1,0 +1,21 @@
+-------------------------------------------------
+Thu Mar 20 18:14:42 GTBST 2025
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.10.1 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\bank-account\project
+[info] loading settings for project bank-account from build.sbt ...
+[info] set current project to bank-account (in build file:/~/exercism/scala/bank-account/)
+[info] BankAccountTest:
+[info] - open account
+[info] - incrementing and checking balance
+[info] - closed account should hold no balance
+[info] - incrementing balance from multiple threads
+[info] - incrementing balance from multiple threads - concurrent updates
+[info] Run completed in 567 milliseconds.
+[info] Total number of tests run: 5
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 20-Mar-2025 18:14:52
