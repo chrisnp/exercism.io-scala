@@ -27,3 +27,35 @@ Wed Jan 29 00:24:09 GTBST 2025
 [info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 3 s, completed 29 Jan 2025, 00:24:19
+
+
+
+-------------------------------------------------
+Fri Mar 21 19:58:01 GTBST 2025
+-------------------------------------------------
+>sbt test
+
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 1.8.0_371)
+[info] loading project definition from ~\exercism\scala\run-length-encoding\project
+[info] loading settings for project run-length-encoding from build.sbt ...
+[info] set current project to run-length-encoding (in build file:/~/exercism/scala/run-length-encoding/)
+[info] RunLengthEncodingTest:
+[info] - encode - empty string
+[info] - encode - single characters only are encoded without count
+[info] - encode - string with no single characters
+[info] - encode - single characters mixed with repeated characters
+[info] - encode - multiple whitespace mixed in string
+[info] - encode - lowercase characters
+[info] - decode - empty string
+[info] - decode - single characters only
+[info] - decode - string with no single characters
+[info] - decode - single characters with repeated characters
+[info] - decode - multiple whitespace mixed in string
+[info] - decode - lower case string
+[info] - consistency - encode followed by decode gives original string
+[info] Run completed in 548 milliseconds.
+[info] Total number of tests run: 13
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 3 s, completed 21-Mar-2025 19:58:10
